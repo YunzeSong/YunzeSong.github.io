@@ -23,7 +23,7 @@ Before my current endeavor, I had the esteemed opportunity to collaborate with <
 
 # 😎 News
 - *2023.09*: &nbsp;🎉🎉 I finished my internship at  <a href='https://www.westlake.edu.cn/'>WestLake Universtiy</a>.
-- *2023.07*: &nbsp;🎉🎉 I earned my first-class honors bachelor degree, supervised by <a href='https://www.xjtlu.edu.cn/en/departments/academicdepartments/communications-and-networking/staff/limin-yu'>Limin Yu</a>.
+- *2023.07*: &nbsp;🎉🎉 I earned my first-class honors bachelor degree, supervised by <a href='https://www.xjtlu.edu.cn/en/departments/academicdepartments/communications-and-networking/staff/limin-yu'>Limin Yu [余丽敏]</a>.
 
 # 📝 Publications 
 Please see my google scholar.
