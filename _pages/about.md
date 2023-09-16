@@ -30,7 +30,7 @@ Please see my google scholar.
 
 # 🎖 Honors and Awards
 - *2019-2020*: University Academic Achievement Award (5,000 CNY) 
-- *2020-2021 & 2021-2022*: University Academic Excellence Award (10,000 CNY) 
+- *2020-2021 & 2021-2022*: University Academic Excellence Award (10,000 CNY Each Year) 
 - *2020-2021 & 2021-2022*: University Outstanding Students Award 
 
 # 📖 Educations
