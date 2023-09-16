@@ -22,7 +22,7 @@ Greetings! I am Song Yunze [宋昀泽], presently engaged in the realm of natura
 Before my current endeavor, I had the esteemed opportunity to collaborate with <a href='https://frcchang.github.io/'>Prof. Yue Zhang [张岳]</a> and <a href='https://www.linyi-yang.me/'>Dr. Linyi Yang [杨林易]</a> in the pursuit of research pertaining to realms of financial knowledge and reasoning through the lens of large language models, at the <a href='https://westlake-nlp.github.io/'>WestLake Natural Language Processing Lab [西湖大学自然语言处理实验室]</a>.
 
 # 😎 News
-- *2023.09*: &nbsp;🎉🎉 I finished my internship at  <a href='https://www.westlake.edu.cn/'>WestLake Universtiy</a>.
+- *2023.09*: &nbsp;🎉🎉 I finished my research internship at  <a href='https://www.westlake.edu.cn/'>WestLake Universtiy</a>.
 - *2023.07*: &nbsp;🎉🎉 I earned my first-class honors bachelor degree, supervised by <a href='https://www.xjtlu.edu.cn/en/departments/academicdepartments/communications-and-networking/staff/limin-yu'>Limin Yu [余丽敏]</a>.
 
 # 📝 Publications 
@@ -30,7 +30,7 @@ Please see my google scholar.
 
 # 🎖 Honors and Awards
 - *2019-2020*: University Academic Achievement Award (5,000 CNY) 
-- *2020-2021 & 2021-2022*: University Academic Excellence Award (10,000 CNY Each Year) 
+- *2020-2021 & 2021-2022*: University Academic Excellence Award (10,000 CNY Per Year) 
 - *2020-2021 & 2021-2022*: University Outstanding Students Award 
 
 # 📖 Educations
