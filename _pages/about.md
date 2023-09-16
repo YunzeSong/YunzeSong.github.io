@@ -17,11 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there! I'm Song Yunze [宋昀泽]. I'm currently involved in natural language processing at FaceMind, an artificial intelligence startup. Previously, I had the opportunity to work alongside <a href='https://frcchang.github.io/'>Prof. Yue Zhang [张岳]</a> and <a href='https://www.linyi-yang.me/'>Dr. Linyi Yang [杨林易]</a> on research related to the financial large language model at <a href='https://westlake-nlp.github.io/'>WestLake Natural Language Processing Lab [西湖大学自然语言处理实验室]</a>.
+Greetings! I am Song Yunze [宋昀泽], presently engaged in the realm of natural language processing at FaceMind, an avant-garde artificial intelligence startup. My key responsibilities encompass the domains of machine translation, creative content generation, and the pursuit of advanced research in large language model knowledge retrieval.
 
+Before my current endeavor, I had the esteemed opportunity to collaborate with <a href='https://frcchang.github.io/'>Prof. Yue Zhang [张岳]</a> and <a href='https://www.linyi-yang.me/'>Dr. Linyi Yang [杨林易]</a> in the pursuit of research pertaining to realms of financial knowledge and reasoning through the lens of large language models, at the <a href='https://westlake-nlp.github.io/'>WestLake Natural Language Processing Lab [西湖大学自然语言处理实验室]</a>.
 
 # 😎 News
-- *2023.09*: &nbsp;🎉🎉 I finish my internship at  <a href='https://www.westlake.edu.cn/'>WestLake Universtiy</a>.
+- *2023.09*: &nbsp;🎉🎉 I finished my internship at  <a href='https://www.westlake.edu.cn/'>WestLake Universtiy</a>.
 - *2023.07*: &nbsp;🎉🎉 I earned my first-class honors bachelor degree, supervised by <a href='https://www.xjtlu.edu.cn/en/departments/academicdepartments/communications-and-networking/staff/limin-yu'>Limin Yu</a>.
 
 # 📝 Publications 
