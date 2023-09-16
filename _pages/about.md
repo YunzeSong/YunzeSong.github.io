@@ -34,7 +34,7 @@ Please see my google scholar.
 - *2020-2021 & 2021-2022*: University Outstanding Students Award 
 
 # 📖 Educations
-- *2024.09 - 2025.07*, Master of Artificial Intelligence at <a href='https://www.ed.ac.uk/'>the University of Edinburgh</a> in the United Kingdom. (Expected, Now Defer for a Gap Year)
+- *2024.09 - 2025.09*, Master of Artificial Intelligence at <a href='https://www.ed.ac.uk/'>the University of Edinburgh</a> in the United Kingdom. (Expected, Now Defer for a Gap Year)
 - *2019.09 - 2023.07*, Undergraduate student in the Department of Computer Science and Technology at <a href='https://www.xjtlu.edu.cn/zh'>Xi'an Jiaotong-Liverpool University</a> in China and <a href='https://www.liverpool.ac.uk/'> the University of Liverpool</a> in the UK.
 
 # 💻 Internships
