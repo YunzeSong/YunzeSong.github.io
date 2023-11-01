@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Greetings! I am Song Yunze [宋昀泽], presently engaged in the realm of natural language processing at FaceMind, an avant-garde artificial intelligence startup. My key responsibilities encompass the domains of machine translation, creative content generation, and the pursuit of advanced research in large language model knowledge retrieval.
+Greetings! I am Song Yunze [宋昀泽], presently engaged in the realm of natural language processing (NLP) at FaceMind Co., Ltd., an avant-garde artificial intelligence startup. My key responsibilities encompass the domains of machine translation, creative content generation, and the pursuit of advanced research in large language model reasoning.
 
 Before my current endeavor, I had the esteemed opportunity to collaborate with <a href='https://frcchang.github.io/'>Prof. Yue Zhang [张岳]</a> and <a href='https://www.linyi-yang.me/'>Dr. Linyi Yang [杨林易]</a> in the pursuit of research pertaining to realms of financial knowledge and reasoning through the lens of large language models, at the <a href='https://westlake-nlp.github.io/'>WestLake Natural Language Processing Lab [西湖大学自然语言处理实验室]</a>.
 
@@ -38,7 +38,7 @@ Please see my google scholar.
 - *2019.09 - 2023.07*, Undergraduate student in the Department of Computer Science and Technology at <a href='https://www.xjtlu.edu.cn/zh'>Xi'an Jiaotong-Liverpool University</a> in China and <a href='https://www.liverpool.ac.uk/'> the University of Liverpool</a> in the UK.
 
 # 💻 Internships
-- *2023.09 - now*: NLP Engineer Intern, FaceMind (AI Startup)
+- *2023.09 - now*: NLP Engineer, FaceMind Co., Ltd. (An AI Startup)
 - *2023.05 - 2023.09*: Research Intern, Westlake University
 - *2022.06 - 2022.09*: Research Assistant, Xi'an Jiaotong-Liverpool University
 
