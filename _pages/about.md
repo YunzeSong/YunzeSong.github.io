@@ -38,6 +38,7 @@ Please see my google scholar.
 - *2019.09 - 2023.07*, Undergraduate student in the Department of Computer Science and Technology at <a href='https://www.xjtlu.edu.cn/zh'>Xi'an Jiaotong-Liverpool University</a> in China and <a href='https://www.liverpool.ac.uk/'> the University of Liverpool</a> in the UK.
 
 # 💻 Internships
+- *2023.11 - now*: Research Intern, Peking University
 - *2023.09 - now*: NLP Engineer, FaceMind Co., Ltd. (An AI Startup)
 - *2023.05 - 2023.09*: Research Intern, Westlake University
 - *2022.06 - 2022.09*: Research Assistant, Xi'an Jiaotong-Liverpool University
