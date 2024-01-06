@@ -19,7 +19,7 @@ redirect_from:
 
 Greetings! I am Song Yunze [宋昀泽], presently a research intern of <a href='https://se.pku.edu.cn/kcl/'>The Knowledge Computing Lab at Peking University [北京大学知识计算实验室]</a>, supervised by <a href='https://qianlanwyd.github.io/'>Dr. Yidong Wang [王一栋]</a> and <a href='https://se.pku.edu.cn/kcg/weiye/'> Prof. Wei Ye [叶蔚]</a>. Meanwhile, I am engaged in the realm of natural language processing (NLP) at FaceMind Co., Ltd., an avant-garde artificial intelligence startup.
 
-Before my current endeavor, I had the esteemed opportunity to collaborate with <a href='https://frcchang.github.io/'>Prof. Yue Zhang [张岳]</a> and <a href='https://www.linyi-yang.me/'>Dr. Linyi Yang [杨林易]</a> in the pursuit of research pertaining to realms of financial knowledge and reasoning through the lens of large language models, at the <a href='https://westlake-nlp.github.io/'>WestLake Natural Language Processing Lab [西湖大学自然语言处理实验室]</a>.
+Before my current endeavor, I had the esteemed opportunity to collaborate with <a href='https://www.linyi-yang.me/'>Dr. Linyi Yang [杨林易]</a> and <a href='https://frcchang.github.io/'>Prof. Yue Zhang [张岳]</a> in the pursuit of research pertaining to realms of financial knowledge and reasoning through the lens of large language models, at the <a href='https://westlake-nlp.github.io/'>WestLake Natural Language Processing Lab [西湖大学自然语言处理实验室]</a>.
 
 # 😎 News
 - *2023.09*: &nbsp;🎉🎉 I finished my research internship at  <a href='https://www.westlake.edu.cn/'>WestLake Universtiy</a>.
