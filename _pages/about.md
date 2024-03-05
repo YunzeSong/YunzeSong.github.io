@@ -21,7 +21,9 @@ Greetings! I am Song Yunze [宋昀泽], presently a research intern of <a href='
 
 Before my current endeavor, I had the esteemed opportunity to collaborate with <a href='https://www.linyi-yang.me/'>Dr. Linyi Yang [杨林易]</a> and <a href='https://frcchang.github.io/'>Prof. Yue Zhang [张岳]</a> in the pursuit of research pertaining to realms of financial knowledge and reasoning through the lens of large language models, at the <a href='https://westlake-nlp.github.io/'>WestLake Natural Language Processing Lab [西湖大学自然语言处理实验室]</a>.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+
+Hello, I am Yidong Wang \[i:doʊn wɑ:n\] (王一栋). My research interests lie in language modeling, semi-supervised learning, transfer learning, and imbalanced learning. I have published several papers at the top international AI Conferences / Journals with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>)
+
 
 
 # 😎 News
