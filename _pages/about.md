@@ -59,10 +59,10 @@ To address hallucinations and difficulties in updating real-time knowledge, Retr
 # 💻 Internships
 
 - *2023.11 - now*: Research Intern, Peking University
-- *2023.09 - now*: NLP Engineer, FaceMind Co., Ltd. (An AI Startup)
+- *2023.09 - 2024.02*: NLP Engineer, FaceMind Co., Ltd. (An AI Startup)
 - *2023.05 - 2023.09*: Research Intern, Westlake University
 - *2022.06 - 2022.09*: Research Assistant, Xi'an Jiaotong-Liverpool University
 
 # 📷 Photography
 
-- I have a strong passion for photography, primarily focusing on portrait and landscape photography. I utilize a variety of equipment, including film cameras, digital DSLRs, pixel cameras (Gameboy), and Polaroid cameras, among others. If you're interested in joining me for travel and photography adventures, please feel free to reach out to me directly via email.
+- When am I ever gonna snag that Hasselblad 503cx?
