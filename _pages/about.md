@@ -37,13 +37,11 @@ I have had the opportunity to conduct research at esteemed institutions such as 
   </div>
   <div class='paper-box-text' markdown="1">
 
-**RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation**
+**RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation [Paper](https://arxiv.org/pdf/2408.11381) [Code](https://github.com/fate-ubw/RAGLAB)**
 
 <span style="font-size: 0.7em;">Xuanwang Zhang *,**Yunze Song \***, Yidong Wang, Shuyun Tang, Xinfeng Li, Zhengran Zeng, Zhen Wu, Wei Ye, Wenyuan Xu, Yue Zhang, Xinyu Dai, Shikun Zhang, Qingsong Wen
 
 To address hallucinations and difficulties in updating real-time knowledge, Retrieval Augmented Generation (RAG) equips Large Language Models with external knowledge. However, two major obstacles hinder RAG's progress. First, there is a growing lack of thorough and fair comparisons between emerging RAG algorithms. Second, open-source tools like LlamaIndex and LangChain use high-level abstractions, reducing transparency and limiting innovation in algorithm development and evaluation. To bridge this gap, we introduce RAGLAB, a modular, research-focused open-source library. RAGLAB replicates six existing algorithms and offers a comprehensive ecosystem for exploring RAG techniques. Using RAGLAB, we fairly compare six RAG algorithms across ten benchmarks, enabling researchers to efficiently evaluate and develop new algorithms.
-
-[Paper](https://arxiv.org/pdf/2408.11381) [Code](https://github.com/fate-ubw/RAGLAB)
 
 </div>
 </div>
