@@ -17,17 +17,29 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Greetings! I am Song Yunze [宋昀泽], presently a research intern of <a href='https://se.pku.edu.cn/kcl/'>The Knowledge Computing Lab at Peking University [北京大学知识计算实验室]</a>, supervised by <a href='https://qianlanwyd.github.io/'>Dr. Yidong Wang [王一栋]</a> and <a href='https://se.pku.edu.cn/kcg/weiye/'> Prof. Wei Ye [叶蔚]</a>. Meanwhile, I am engaged in the realm of natural language processing (NLP) at FaceMind Co., Ltd., an avant-garde artificial intelligence startup.
+Greetings! I am Yunze Song, currently pursuing my graduate studies at the National University of Singapore. My research is centered on advancing the field of artificial intelligence, with a particular emphasis on the fair evaluation of large models and the safer development of generative AI systems. Additionally, I am exploring the integration of large language models into robotics, aiming to enhance the capabilities of AI-driven systems in practical applications.
 
-Before my current endeavor, I had the esteemed opportunity to collaborate with <a href='https://www.linyi-yang.me/'>Dr. Linyi Yang [杨林易]</a> and <a href='https://frcchang.github.io/'>Prof. Yue Zhang [张岳]</a> in the pursuit of research pertaining to realms of financial knowledge and reasoning through the lens of large language models, at the <a href='https://westlake-nlp.github.io/'>WestLake Natural Language Processing Lab [西湖大学自然语言处理实验室]</a>.
+I have had the opportunity to conduct research at esteemed institutions such as Peking University and Westlake University, where my work focused on evaluating large language models. I aspire to achieve meaningful outcomes through research and develop the capacity to bring happiness and positive impact to others.
 
 
 # 😎 News
-- *2023.09*: &nbsp;🎉🎉 I finished my research internship at  <a href='https://www.westlake.edu.cn/'>WestLake Universtiy</a>.
-- *2023.07*: &nbsp;🎉🎉 I earned my first-class honors bachelor degree, supervised by <a href='https://www.xjtlu.edu.cn/en/departments/academicdepartments/communications-and-networking/staff/limin-yu'>Limin Yu [余丽敏]</a>.
+- *2024.02*: &nbsp;🎉🎉 I joined <a href='https://se.pku.edu.cn/kcl/'>The Knowledge Computing Lab at Peking University</a> as a research intern, supervised by <a href='https://qianlanwyd.github.io/'>Dr. Yidong Wang</a> and <a href='https://se.pku.edu.cn/kcg/weiye/'>Prof. Wei Ye</a>.
+- *2023.09*: &nbsp;🎉🎉 I completed my research internship at <a href='https://www.westlake.edu.cn/'>WestLake University</a>, under the supervision of <a href='https://yanglinyi.github.io/'>Dr. Linyi Yang</a> and <a href='https://frcchang.github.io/'>Prof. Yue Zhang</a>.
+- *2023.07*: &nbsp;🎉🎉 I earned my first-class honors bachelor degree, supervised by <a href='https://www.xjtlu.edu.cn/en/departments/academicdepartments/communications-and-networking/staff/limin-yu'>Prof. Limin Yu</a>.
 
 # 📝 Publications 
-Please see my google scholar.
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arxiv</div><img src='images/raglab.pdf' height="200"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation**
+
+Xuanwang Zhang *, **Yunze SOng \***, Yidong Wang, Shuyun Tang, Xinfeng Li, Zhengran Zeng, Zhen Wu, Wei Ye, Wenyuan Xu, Yue Zhang, Xinyu Dai, Shikun Zhang, Qingsong Wen
+
+Large Language Models (LLMs) demonstrate human-level capabilities in dialogue, reasoning, and knowledge retention. However, even the most advanced LLMs face challenges such as hallucinations and real-time updating of their knowledge. Current research addresses this bottleneck by equipping LLMs with external knowledge, a technique known as Retrieval Augmented Generation (RAG). However, two key issues constrained the development of RAG. First, there is a growing lack of comprehensive and fair comparisons between novel RAG algorithms. Second, open-source tools such as LlamaIndex and LangChain employ high-level abstractions, which results in a lack of transparency and limits the ability to develop novel algorithms and evaluation metrics. To close this gap, we introduce RAGLAB, a modular and research-oriented open-source library. RAGLAB reproduces 6 existing algorithms and provides a comprehensive ecosystem for investigating RAG algorithms. Leveraging RAGLAB, we conduct a fair comparison of 6 RAG algorithms across 10 benchmarks. With RAGLAB, researchers can efficiently compare the performance of various algorithms and develop novel algorithms. 
+
+[Paper](https://arxiv.org/pdf/2408.11381) [Code](https://github.com/fate-ubw/RAGLAB)
+
+</div>
 
 # 🎖 Honors and Awards
 - *2019-2020*: University Academic Achievement Award (5,000 CNY) 
@@ -35,7 +47,7 @@ Please see my google scholar.
 - *2020-2021 & 2021-2022*: University Outstanding Students Award 
 
 # 📖 Educations
-- *2024.09 - 2025.09*, Master of Artificial Intelligence at <a href='https://www.ed.ac.uk/'>the University of Edinburgh</a> in the United Kingdom. (Expected, Now Defer for a Gap Year)
+- *2025.01 - 2026.09*, Master of Science in Robotics at <a href='https://nus.edu.sg/'>National University Of Singapore</a>.
 - *2019.09 - 2023.07*, Undergraduate student in the Department of Computer Science and Technology at <a href='https://www.xjtlu.edu.cn/zh'>Xi'an Jiaotong-Liverpool University</a> in China and <a href='https://www.liverpool.ac.uk/'> the University of Liverpool</a> in the UK.
 
 # 💻 Internships
