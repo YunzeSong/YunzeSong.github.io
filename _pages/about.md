@@ -22,11 +22,9 @@ I have had the opportunity to conduct research at esteemed institutions such as 
 
 # 😎 News
 
-- *2024.02*: 🎉🎉 I joined <a href='https://se.pku.edu.cn/kcl/'>The Knowledge Computing Lab at Peking University</a> as a research intern, under the supervision of <a href='https://qianlanwyd.github.io/'>Dr. Yidong Wang</a> and <a href='https://se.pku.edu.cn/kcg/weiye/'>Prof. Wei Ye</a>.
-- *2023.09*: 🎉🎉 I completed a research internship at <a href='https://www.westlake.edu.cn/'>WestLake University</a>, supervised by <a href='https://yanglinyi.github.io/'>Dr. Linyi Yang</a> and <a href='https://frcchang.github.io/'>Prof. Yue Zhang</a>.
-- *2023.07*: 🎉🎉 I received my first-class honors bachelor's degree with top-ranking distinction, under the supervision of <a href='https://www.xjtlu.edu.cn/en/departments/academicdepartments/communications-and-networking/staff/limin-yu'>Prof. Limin Yu</a>.
-
-
+- *2024.02*: 🎉🎉 I joined `<a href='https://se.pku.edu.cn/kcl/'>`The Knowledge Computing Lab at Peking University`</a>` as a research intern, under the supervision of `<a href='https://qianlanwyd.github.io/'>`Dr. Yidong Wang`</a>` and `<a href='https://se.pku.edu.cn/kcg/weiye/'>`Prof. Wei Ye`</a>`.
+- *2023.09*: 🎉🎉 I completed a research internship at `<a href='https://www.westlake.edu.cn/'>`WestLake University`</a>`, supervised by `<a href='https://yanglinyi.github.io/'>`Dr. Linyi Yang`</a>` and `<a href='https://frcchang.github.io/'>`Prof. Yue Zhang`</a>`.
+- *2023.07*: 🎉🎉 I received my first-class honors bachelor's degree with top-ranking distinction, under the supervision of `<a href='https://www.xjtlu.edu.cn/en/departments/academicdepartments/communications-and-networking/staff/limin-yu'>`Prof. Limin Yu`</a>`.
 
 # 📝 Publications
 
@@ -38,16 +36,19 @@ I have had the opportunity to conduct research at esteemed institutions such as 
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
-  
-    **RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation**
 
-    Xuanwang Zhang *, **Yunze Song \***, Yidong Wang, Shuyun Tang, Xinfeng Li, Zhengran Zeng, Zhen Wu, Wei Ye, Wenyuan Xu, Yue Zhang, Xinyu Dai, Shikun Zhang, Qingsong Wen
+  **RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation**
 
-    To address hallucinations and difficulties in updating real-time knowledge, Retrieval Augmented Generation (RAG) equips Large Language Models with external knowledge. However, two major obstacles hinder RAG's progress. First, there is a growing lack of thorough and fair comparisons between emerging RAG algorithms. Second, open-source tools like LlamaIndex and LangChain use high-level abstractions, reducing transparency and limiting innovation in algorithm development and evaluation. To bridge this gap, we introduce RAGLAB, a modular, research-focused open-source library. RAGLAB replicates six existing algorithms and offers a comprehensive ecosystem for exploring RAG techniques. Using RAGLAB, we fairly compare six RAG algorithms across ten benchmarks, enabling researchers to efficiently evaluate and develop new algorithms.
+  Xuanwang Zhang *,**Yunze Song \***, Yidong Wang, Shuyun Tang, Xinfeng Li, Zhengran Zeng, Zhen Wu, Wei Ye, Wenyuan Xu, Yue Zhang, Xinyu Dai, Shikun Zhang, Qingsong Wen
 
-    [Paper](https://arxiv.org/pdf/2408.11381) [Code](https://github.com/fate-ubw/RAGLAB)
-  </div>
+  To address hallucinations and difficulties in updating real-time knowledge, Retrieval Augmented Generation (RAG) equips Large Language Models with external knowledge. However, two major obstacles hinder RAG's progress. First, there is a growing lack of thorough and fair comparisons between emerging RAG algorithms. Second, open-source tools like LlamaIndex and LangChain use high-level abstractions, reducing transparency and limiting innovation in algorithm development and evaluation. To bridge this gap, we introduce RAGLAB, a modular, research-focused open-source library. RAGLAB replicates six existing algorithms and offers a comprehensive ecosystem for exploring RAG techniques. Using RAGLAB, we fairly compare six RAG algorithms across ten benchmarks, enabling researchers to efficiently evaluate and develop new algorithms.
+
+  [Paper](https://arxiv.org/pdf/2408.11381) [Code](https://github.com/fate-ubw/RAGLAB)
+
 </div>
+</div>
+
+
 
 # 🎖 Honors and Awards
 
@@ -57,8 +58,8 @@ I have had the opportunity to conduct research at esteemed institutions such as 
 
 # 📖 Educations
 
-- *2025.01 - 2026.09*, Master of Science in Robotics at <a href='https://nus.edu.sg/'>National University Of Singapore</a>.
-- *2019.09 - 2023.07*, Undergraduate student in the Department of Computer Science and Technology at <a href='https://www.xjtlu.edu.cn/zh'>Xi'an Jiaotong-Liverpool University</a> in China and <a href='https://www.liverpool.ac.uk/'> the University of Liverpool</a> in the UK.
+- *2025.01 - 2026.09*, Master of Science in Robotics at `<a href='https://nus.edu.sg/'>`National University Of Singapore`</a>`.
+- *2019.09 - 2023.07*, Undergraduate student in the Department of Computer Science and Technology at `<a href='https://www.xjtlu.edu.cn/zh'>`Xi'an Jiaotong-Liverpool University`</a>` in China and `<a href='https://www.liverpool.ac.uk/'>` the University of Liverpool`</a>` in the UK.
 
 # 💻 Internships
 
