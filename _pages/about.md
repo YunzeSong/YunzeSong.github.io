@@ -27,7 +27,6 @@ I have had the opportunity to conduct research at esteemed institutions such as 
 - *2023.07*: 🎉🎉 I received my first-class honors bachelor's degree with top-ranking distinction, under the supervision of <a href='https://www.xjtlu.edu.cn/en/departments/academicdepartments/communications-and-networking/staff/limin-yu'>Prof. Limin Yu</a>.
 
 # 📝 Publications
-
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
@@ -36,7 +35,7 @@ I have had the opportunity to conduct research at esteemed institutions such as 
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
-
+    
 **RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation [Paper](https://arxiv.org/pdf/2408.11381) [Code](https://github.com/fate-ubw/RAGLAB)**
 
 <span style="font-size: 0.7em;">Xuanwang Zhang *,**Yunze Song \***, Yidong Wang, Shuyun Tang, Xinfeng Li, Zhengran Zeng, Zhen Wu, Wei Ye, Wenyuan Xu, Yue Zhang, Xinyu Dai, Shikun Zhang, Qingsong Wen
@@ -45,7 +44,6 @@ To address hallucinations and difficulties in updating real-time knowledge, Retr
 
 </div>
 </div>
-
 
 # 🎖 Honors and Awards
 
