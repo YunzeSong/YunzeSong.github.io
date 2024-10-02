@@ -16,7 +16,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Greetings! I am Yunze Song, currently pursuing my graduate studies at the National University of Singapore <img src='../images/nus_logo_full-horizontal.jpg' height="25"> . My research is centered on advancing the field of artificial intelligence, with a particular emphasis on the fair evaluation of large models and the safer development of generative AI systems. Additionally, I am exploring the integration of large language models into robotics, aiming to enhance the capabilities of AI-driven systems in practical applications.
+Greetings! I am Yunze Song, currently pursuing my graduate studies at the National University of Singapore. My research is centered on advancing the field of artificial intelligence, with a particular emphasis on the fair evaluation of large models and the safer development of generative AI systems. Additionally, I am exploring the integration of large language models into robotics, aiming to enhance the capabilities of AI-driven systems in practical applications.
 
 I have had the opportunity to conduct research at esteemed institutions such as Peking University and Westlake University, where my work focused on LLM Evaluation and Retrieval-Augmented Generation. I aspire to achieve meaningful outcomes through research and develop the capacity to bring happiness and positive impact to others.
 
