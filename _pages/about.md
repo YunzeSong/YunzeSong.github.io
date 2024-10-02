@@ -36,7 +36,7 @@ I have had the opportunity to conduct research at esteemed institutions such as 
   </div>
   <div class='paper-box-text' markdown="1">
     
-**RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation [Paper](https://arxiv.org/pdf/2408.11381) [Code](https://github.com/fate-ubw/RAGLAB)**
+**RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation [Paper](https://arxiv.org/pdf/2408.11381) [Code](https://github.com/fate-ubw/RAGLAB) ![](https://img.shields.io/github/stars/fate-ubw/RAGLAB?style=social&label=Stars)**
 
 <span style="font-size: 0.7em;">Xuanwang Zhang *,**Yunze Song \***, Yidong Wang, Shuyun Tang, Xinfeng Li, Zhengran Zeng, Zhen Wu, Wei Ye, Wenyuan Xu, Yue Zhang, Xinyu Dai, Shikun Zhang, Qingsong Wen
 
