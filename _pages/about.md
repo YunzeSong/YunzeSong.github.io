@@ -53,7 +53,7 @@ To address hallucinations and difficulties in updating real-time knowledge, Retr
 
 # 📖 Educations
 
-- *2025.01 - 2026.09*, Master of Science in Robotics at <a href='https://nus.edu.sg/'>National University of Singapore</a>.
+- *2025.01 - 2026.07*, Master of Science in Robotics at <a href='https://nus.edu.sg/'>National University of Singapore</a>.
 - *2019.09 - 2023.07*, Undergraduate student in the Department of Computer Science and Technology at <a href='https://www.xjtlu.edu.cn/zh'>Xi'an Jiaotong-Liverpool University</a> in China and <a href='https://www.liverpool.ac.uk/'> the University of Liverpool</a> in the UK.
 
 # 💻 Internships
