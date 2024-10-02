@@ -22,9 +22,9 @@ I have had the opportunity to conduct research at esteemed institutions such as 
 
 # 😎 News
 
-- *2024.02*: 🎉🎉 I joined `<a href='https://se.pku.edu.cn/kcl/'>`The Knowledge Computing Lab at Peking University`</a>` as a research intern, under the supervision of `<a href='https://qianlanwyd.github.io/'>`Dr. Yidong Wang`</a>` and `<a href='https://se.pku.edu.cn/kcg/weiye/'>`Prof. Wei Ye`</a>`.
-- *2023.09*: 🎉🎉 I completed a research internship at `<a href='https://www.westlake.edu.cn/'>`WestLake University`</a>`, supervised by `<a href='https://yanglinyi.github.io/'>`Dr. Linyi Yang`</a>` and `<a href='https://frcchang.github.io/'>`Prof. Yue Zhang`</a>`.
-- *2023.07*: 🎉🎉 I received my first-class honors bachelor's degree with top-ranking distinction, under the supervision of `<a href='https://www.xjtlu.edu.cn/en/departments/academicdepartments/communications-and-networking/staff/limin-yu'>`Prof. Limin Yu`</a>`.
+- *2024.02*: 🎉🎉 I joined <a href='https://se.pku.edu.cn/kcl/'>The Knowledge Computing Lab at Peking University</a> as a research intern, under the supervision of <a href='https://qianlanwyd.github.io/'>Dr. Yidong Wang</a> and <a href='https://se.pku.edu.cn/kcg/weiye/'>Prof. Wei Ye</a>.
+- *2023.09*: 🎉🎉 I completed a research internship at <a href='https://www.westlake.edu.cn/'>WestLake University</a>, supervised by <a href='https://yanglinyi.github.io/'>Dr. Linyi Yang</a> and <a href='https://frcchang.github.io/'>Prof. Yue Zhang</a>.
+- *2023.07*: 🎉🎉 I received my first-class honors bachelor's degree with top-ranking distinction, under the supervision of <a href='https://www.xjtlu.edu.cn/en/departments/academicdepartments/communications-and-networking/staff/limin-yu'>Prof. Limin Yu</a>.
 
 # 📝 Publications
 
@@ -32,10 +32,10 @@ I have had the opportunity to conduct research at esteemed institutions such as 
   <div class='paper-box-image'>
     <div>
       <div class="badge">arxiv</div>
-      <img src='../images/raglab.png' height="300">
+      <img src='../images/raglab.png' height="200">
     </div>
   </div>
-  <div class='paper-box-text' markdown="1">
+  <div class='paper-box-text' markdown="0.8">
 
   **RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation**
 
@@ -58,8 +58,8 @@ I have had the opportunity to conduct research at esteemed institutions such as 
 
 # 📖 Educations
 
-- *2025.01 - 2026.09*, Master of Science in Robotics at `<a href='https://nus.edu.sg/'>`National University Of Singapore`</a>`.
-- *2019.09 - 2023.07*, Undergraduate student in the Department of Computer Science and Technology at `<a href='https://www.xjtlu.edu.cn/zh'>`Xi'an Jiaotong-Liverpool University`</a>` in China and `<a href='https://www.liverpool.ac.uk/'>` the University of Liverpool`</a>` in the UK.
+- *2025.01 - 2026.09*, Master of Science in Robotics at <a href='https://nus.edu.sg/'>National University Of Singapore</a>.
+- *2019.09 - 2023.07*, Undergraduate student in the Department of Computer Science and Technology at <a href='https://www.xjtlu.edu.cn/zh'>Xi'an Jiaotong-Liverpool University</a> in China and <a href='https://www.liverpool.ac.uk/'> the University of Liverpool</a> in the UK.
 
 # 💻 Internships
 
