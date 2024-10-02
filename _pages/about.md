@@ -16,14 +16,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Greetings! I am Yunze Song, currently pursuing my graduate studies at the National University of Singapore. My research is centered on advancing the field of artificial intelligence, with a particular emphasis on the fair evaluation of large models and the safer development of generative AI systems. Additionally, I am exploring the integration of large language models into robotics, aiming to enhance the capabilities of AI-driven systems in practical applications.
+Greetings! I am Yunze Song, currently pursuing my graduate studies at the National University of Singapore <img src='../images/nus_logo_full-horizontal.jpg' height="25"> . My research is centered on advancing the field of artificial intelligence, with a particular emphasis on the fair evaluation of large models and the safer development of generative AI systems. Additionally, I am exploring the integration of large language models into robotics, aiming to enhance the capabilities of AI-driven systems in practical applications.
 
 I have had the opportunity to conduct research at esteemed institutions such as Peking University and Westlake University, where my work focused on LLM Evaluation and Retrieval-Augmented Generation. I aspire to achieve meaningful outcomes through research and develop the capacity to bring happiness and positive impact to others.
 
 # 😎 News
 
 - *2024.02*: 🎉🎉 I joined <a href='https://se.pku.edu.cn/kcl/'>The Knowledge Computing Lab at Peking University</a> as a research intern, under the supervision of <a href='https://qianlanwyd.github.io/'>Dr. Yidong Wang</a> and <a href='https://se.pku.edu.cn/kcg/weiye/'>Prof. Wei Ye</a>.
-- *2023.09*: 🎉🎉 I completed a research internship at <a href='https://www.westlake.edu.cn/'>WestLake University</a>, supervised by <a href='https://yanglinyi.github.io/'>Dr. Linyi Yang</a> and <a href='https://frcchang.github.io/'>Prof. Yue Zhang</a>.
+- *2023.09*: 🎉🎉 I completed a research internship at <a href='https://nlp.westlake.edu.cn/index.htm'>Text Intelligence Lab of Westlake University</a>, supervised by <a href='https://yanglinyi.github.io/'>Dr. Linyi Yang</a> and <a href='https://frcchang.github.io/'>Prof. Yue Zhang</a>.
 - *2023.07*: 🎉🎉 I received my first-class honors bachelor's degree with top-ranking distinction, under the supervision of <a href='https://www.xjtlu.edu.cn/en/departments/academicdepartments/communications-and-networking/staff/limin-yu'>Prof. Limin Yu</a>.
 
 # 📝 Publications
@@ -35,19 +35,18 @@ I have had the opportunity to conduct research at esteemed institutions such as 
       <img src='../images/raglab.png' height="200">
     </div>
   </div>
-  <div class='paper-box-text' markdown="0.8">
+  <div class='paper-box-text' markdown="1">
 
-  **RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation**
+**RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation**
 
-  Xuanwang Zhang *,**Yunze Song \***, Yidong Wang, Shuyun Tang, Xinfeng Li, Zhengran Zeng, Zhen Wu, Wei Ye, Wenyuan Xu, Yue Zhang, Xinyu Dai, Shikun Zhang, Qingsong Wen
+<span style="font-size: 0.7em;">Xuanwang Zhang *,**Yunze Song \***, Yidong Wang, Shuyun Tang, Xinfeng Li, Zhengran Zeng, Zhen Wu, Wei Ye, Wenyuan Xu, Yue Zhang, Xinyu Dai, Shikun Zhang, Qingsong Wen
 
-  To address hallucinations and difficulties in updating real-time knowledge, Retrieval Augmented Generation (RAG) equips Large Language Models with external knowledge. However, two major obstacles hinder RAG's progress. First, there is a growing lack of thorough and fair comparisons between emerging RAG algorithms. Second, open-source tools like LlamaIndex and LangChain use high-level abstractions, reducing transparency and limiting innovation in algorithm development and evaluation. To bridge this gap, we introduce RAGLAB, a modular, research-focused open-source library. RAGLAB replicates six existing algorithms and offers a comprehensive ecosystem for exploring RAG techniques. Using RAGLAB, we fairly compare six RAG algorithms across ten benchmarks, enabling researchers to efficiently evaluate and develop new algorithms.
+To address hallucinations and difficulties in updating real-time knowledge, Retrieval Augmented Generation (RAG) equips Large Language Models with external knowledge. However, two major obstacles hinder RAG's progress. First, there is a growing lack of thorough and fair comparisons between emerging RAG algorithms. Second, open-source tools like LlamaIndex and LangChain use high-level abstractions, reducing transparency and limiting innovation in algorithm development and evaluation. To bridge this gap, we introduce RAGLAB, a modular, research-focused open-source library. RAGLAB replicates six existing algorithms and offers a comprehensive ecosystem for exploring RAG techniques. Using RAGLAB, we fairly compare six RAG algorithms across ten benchmarks, enabling researchers to efficiently evaluate and develop new algorithms.
 
-  [Paper](https://arxiv.org/pdf/2408.11381) [Code](https://github.com/fate-ubw/RAGLAB)
+[Paper](https://arxiv.org/pdf/2408.11381) [Code](https://github.com/fate-ubw/RAGLAB)
 
 </div>
 </div>
-
 
 
 # 🎖 Honors and Awards
