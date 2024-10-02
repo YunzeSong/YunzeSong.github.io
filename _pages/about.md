@@ -22,7 +22,7 @@ I have had the opportunity to conduct research at esteemed institutions such as 
 
 # 😎 News
 
-- *2024.02*: I joined <a href='https://se.pku.edu.cn/kcl/'>The Knowledge Computing Lab at Peking University</a> as a research intern, under the supervision of <a href='https://qianlanwyd.github.io/'>Dr. Yidong Wang</a> and <a href='https://se.pku.edu.cn/kcg/weiye/'>Prof. Wei Ye</a>.
+- *2024.02*: I joined <a href='https://se.pku.edu.cn/kcl/'>The Knowledge Computing Lab at Peking University</a> as a research intern, supervised by <a href='https://qianlanwyd.github.io/'>Dr. Yidong Wang</a> and <a href='https://se.pku.edu.cn/kcg/weiye/'>Prof. Wei Ye</a>.
 - *2023.09*: I completed a research internship at <a href='https://nlp.westlake.edu.cn/index.htm'>Text Intelligence Lab of Westlake University</a>, supervised by <a href='https://yanglinyi.github.io/'>Dr. Linyi Yang</a> and <a href='https://frcchang.github.io/'>Prof. Yue Zhang</a>.
 - *2023.07*: I received my first-class honors bachelor's degree with top-ranking distinction, under the supervision of <a href='https://scholar.xjtlu.edu.cn/en/persons/liminyu'>Prof. Limin Yu</a>.
 
