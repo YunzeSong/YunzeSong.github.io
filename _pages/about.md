@@ -64,5 +64,4 @@ To address hallucinations and difficulties in updating real-time knowledge, Retr
 - *2022.06 - 2022.09*: Research Assistant, Xi'an Jiaotong-Liverpool University
 
 # 📷 Photography
-
-- When am I ever gonna snag that Hasselblad 503cx?
+When am I ever gonna snag that Hasselblad 503cx?
