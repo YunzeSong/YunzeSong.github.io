@@ -30,7 +30,7 @@ I have had the opportunity to conduct research at esteemed institutions such as 
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">arxiv</div>
+      <div class="badge">EMNLP 2024 Demo</div>
       <img src='../images/raglab.png' height="200">
     </div>
   </div>
