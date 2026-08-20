@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f0e5">
+  <meta name="description" content="Yunze Song works on reinforcement learning and trustworthy language models. Follow his research and journey through a small pixel world.">
+  <title>Academic &middot; Yunze Song</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@1,6..72,500&amp;display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/logo-matcha-basque.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./academic.css">
+  <script defer src="./academic.js"></script>
+</head>
+<body class="academic-page">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <canvas class="world-background" data-world-background aria-hidden="true"></canvas>
+  <div class="world-grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="./index.html" aria-label="Yunze Song, go to homepage">
+        <img class="wordmark-mark" src="./assets/logo-matcha-basque.svg" alt="" width="32" height="32" aria-hidden="true">
+        <span>Yunze Song</span>
+      </a>
+      <div class="academic-nav-groups">
+        <nav class="site-nav" aria-label="Site navigation">
+          <a href="./index.html">Home</a>
+          <a class="is-current" href="./academic.html" aria-current="page">Academic</a>
+          <a href="./postcards.html">Postcards</a>
+        </nav>
+        <span class="nav-divider" aria-hidden="true"></span>
+        <nav class="section-nav" aria-label="Academic page sections">
+          <a href="#publications">Publications</a>
+          <a href="#talks">Talks</a>
+          <a href="#journey">Journey</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero page-width" id="top" aria-labelledby="hero-title" data-world-mood="beijing">
+      <div class="hero-copy">
+        <h1 id="hero-title">I work on reinforcement learning and trustworthy language models.</h1>
+        <p class="hero-intro">
+          Hello, I am Yunze &mdash; a research intern at Hunyuan, Tencent, and a graduate student at the National University of Singapore. I build and study learning systems that reason, evaluate, and improve.
+        </p>
+      </div>
+
+      <figure class="city-player" data-city-player>
+        <div class="city-player-bar" aria-hidden="true">
+          <span class="bar-lights"><i></i><i></i><i></i></span>
+          <span data-city-coordinates>39.90 N / 116.41 E</span>
+        </div>
+        <div class="city-scene scene-motion-surface" data-motion-scene="beijing">
+          <img
+            data-current-city-image
+            src="./assets/scene-beijing.webp"
+            alt="Pixel art of Yunze exploring Beijing near the Forbidden City"
+            width="1672"
+            height="941"
+            decoding="async"
+            fetchpriority="high">
+          <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
+          <span class="scene-glint scene-glint-one" aria-hidden="true"></span>
+          <span class="scene-glint scene-glint-two" aria-hidden="true"></span>
+        </div>
+        <figcaption>
+          <div class="scene-note">
+            <strong data-city-caption>Currently in Beijing.</strong>
+          </div>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="section page-width" id="publications" aria-labelledby="publications-title" data-world-mood="research">
+      <header class="section-heading">
+        <div>
+          <p class="section-kicker">Selected research</p>
+          <h2 id="publications-title">Publications</h2>
+        </div>
+      </header>
+
+      <div class="publication-list">
+        <article class="publication">
+          <a class="publication-image publication-image-trustjudge" href="https://arxiv.org/pdf/2509.21117.pdf" target="_blank" rel="noopener" aria-label="Read TrustJudge paper">
+            <img src="./assets/publication-trustjudge.jpg" alt="TrustJudge comparison chart" width="1818" height="1218" loading="lazy" decoding="async">
+          </a>
+          <div class="publication-copy">
+            <p class="publication-meta"><span>ICLR 2026</span></p>
+            <h3>TrustJudge: Inconsistencies of LLM-as-a-Judge and How to Alleviate Them</h3>
+            <div class="publication-links">
+              <a href="https://arxiv.org/pdf/2509.21117.pdf" target="_blank" rel="noopener">Paper <span aria-hidden="true">&#8599;</span></a>
+              <a href="https://github.com/TrustJudge/TrustJudge" target="_blank" rel="noopener">Code <span aria-hidden="true">&#8599;</span></a>
+              <span class="repo-stars" data-repo="TrustJudge/TrustJudge" aria-label="GitHub stars">Stars <span data-star-count>&ndash;</span></span>
+            </div>
+            <p class="publication-abstract">We identify two fundamental inconsistencies in LLM-as-a-judge evaluation: Score-Comparison inconsistency and Pairwise Transitivity inconsistency. We propose TrustJudge, a probabilistic framework with distribution-sensitive scoring and likelihood-aware aggregation to alleviate these issues and improve reliability of automated assessment.</p>
+          </div>
+        </article>
+
+        <article class="publication">
+          <a class="publication-image" href="https://arxiv.org/pdf/2408.11381" target="_blank" rel="noopener" aria-label="Read RAGLAB paper">
+            <img src="./assets/publication-raglab.jpg" alt="Overview of the modular RAGLAB framework" width="1695" height="1014" loading="lazy" decoding="async">
+          </a>
+          <div class="publication-copy">
+            <p class="publication-meta"><span>EMNLP 2024</span></p>
+            <h3>RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation</h3>
+            <div class="publication-links">
+              <a href="https://arxiv.org/pdf/2408.11381" target="_blank" rel="noopener">Paper <span aria-hidden="true">&#8599;</span></a>
+              <a href="https://github.com/fate-ubw/RAGLAB" target="_blank" rel="noopener">Code <span aria-hidden="true">&#8599;</span></a>
+              <span class="repo-stars" data-repo="fate-ubw/RAGLAB" aria-label="GitHub stars">Stars <span data-star-count>&ndash;</span></span>
+            </div>
+            <p class="publication-abstract">Two major obstacles hinder RAG's progress: (1) lack of thorough and fair comparisons between emerging RAG algorithms; (2) high-level abstractions in open-source tools reduce transparency and limit innovation. We introduce RAGLAB, a modular, research-focused open-source library that replicates existing algorithms and provides an ecosystem for exploring RAG techniques, enabling fair comparisons across benchmarks.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section page-width" id="talks" aria-labelledby="talks-title" data-world-mood="signal">
+      <header class="section-heading section-heading-compact">
+        <div>
+          <p class="section-kicker">Speaking</p>
+          <h2 id="talks-title">Talks</h2>
+        </div>
+      </header>
+
+      <a class="talk-row" href="https://www.temasek-labs.nus.edu.sg/events/seminar3Dec2025.html" target="_blank" rel="noopener">
+        <div class="talk-pixel-window" aria-hidden="true">
+          <div class="pixel-sky"></div>
+          <span class="pixel-drone drone-one"><i></i></span>
+          <span class="pixel-drone drone-two"><i></i></span>
+          <span class="pixel-target"></span>
+          <span class="pixel-trail trail-one"></span>
+          <span class="pixel-trail trail-two"></span>
+        </div>
+        <div class="talk-copy">
+          <p class="publication-meta"><span>03 December 2025</span><span>Temasek Laboratories @ NUS</span></p>
+          <h3>Multi-UAV Multi-Target Cooperative Interception via Multi-Agent RL with Reward Shaping and LLM-Based Curriculum Learning</h3>
+          <span class="talk-cta">Open seminar page <span aria-hidden="true">&#8599;</span></span>
+        </div>
+      </a>
+    </section>
+
+    <section class="journey-section" id="journey" aria-labelledby="journey-title" data-world-mood="journey">
+      <div class="page-width">
+        <header class="section-heading journey-heading">
+          <div>
+            <p class="section-kicker">One continuous route</p>
+            <h2 id="journey-title">Journey</h2>
+          </div>
+        </header>
+
+        <div class="journey-layout">
+          <figure class="journey-stage" aria-live="polite">
+            <div class="journey-stage-bar">
+              <span data-journey-place>Shenzhen</span>
+              <span data-journey-index>01 / 05</span>
+            </div>
+            <div class="journey-stage-image scene-motion-surface" data-motion-scene="shenzhen">
+              <img data-journey-image src="./assets/scene-shenzhen.webp" alt="Pixel art scene for Shenzhen" width="1672" height="941" decoding="async">
+              <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
+            </div>
+            <figcaption data-journey-caption>A new chapter with Hunyuan, Tencent, in Shenzhen.</figcaption>
+            <div class="journey-progress" aria-hidden="true"><span></span></div>
+          </figure>
+
+          <ol class="journey-list">
+            <li class="journey-item is-active" data-journey-scene="shenzhen" data-journey-caption="A new chapter with Hunyuan, Tencent, in Shenzhen.">
+              <div class="journey-mobile-frame scene-motion-surface" data-motion-scene="shenzhen">
+                <img class="journey-mobile-scene" src="./assets/scene-shenzhen.webp" alt="Pixel art of Yunze looking across the Shenzhen skyline" width="1672" height="941" loading="lazy" decoding="async">
+                <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
+              </div>
+              <p class="journey-period">2025.12 &ndash; now</p>
+              <h3>Research Intern, Hunyuan, Tencent</h3>
+              <p>Shenzhen, China</p>
+            </li>
+            <li class="journey-item" data-journey-scene="singapore" data-journey-caption="Graduate study at NUS and Temasek Laboratories.">
+              <div class="journey-mobile-frame scene-motion-surface" data-motion-scene="singapore">
+                <img class="journey-mobile-scene" src="./assets/scene-singapore.webp" alt="Pixel art of Yunze near NUS in Singapore" width="1672" height="941" loading="lazy" decoding="async">
+                <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
+              </div>
+              <p class="journey-period">2025.01 &ndash; 2027.02</p>
+              <h3>M.Sc. in Robotics</h3>
+              <p class="journey-affiliations">
+                <span><a href="https://nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a>, Singapore</span>
+                <span><a href="https://www.temasek-labs.nus.edu.sg/" target="_blank" rel="noopener">Temasek Laboratories @ NUS</a>, Singapore</span>
+              </p>
+            </li>
+            <li class="journey-item" data-journey-scene="beijing" data-journey-caption="A year of research at Peking University.">
+              <div class="journey-mobile-frame scene-motion-surface" data-motion-scene="beijing">
+                <img class="journey-mobile-scene" src="./assets/scene-beijing.webp" alt="Pixel art of Yunze in Beijing" width="1672" height="941" loading="lazy" decoding="async">
+                <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
+              </div>
+              <p class="journey-period">2023.11 &ndash; 2024.11</p>
+              <h3>Research Intern, Peking University</h3>
+              <p>Beijing, China</p>
+            </li>
+            <li class="journey-item" data-journey-scene="hangzhou" data-journey-caption="Research beside the hills and water of Hangzhou.">
+              <div class="journey-mobile-frame scene-motion-surface" data-motion-scene="hangzhou">
+                <img class="journey-mobile-scene" src="./assets/scene-hangzhou.webp" alt="Pixel art of Yunze exploring Hangzhou" width="1672" height="941" loading="lazy" decoding="async">
+                <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
+              </div>
+              <p class="journey-period">2023.05 &ndash; 2023.09</p>
+              <h3>Research Intern, Westlake University</h3>
+              <p>Hangzhou, China</p>
+            </li>
+            <li class="journey-item" data-journey-scene="suzhou" data-journey-caption="The undergraduate years began along Suzhou's canals.">
+              <div class="journey-mobile-frame scene-motion-surface" data-motion-scene="suzhou">
+                <img class="journey-mobile-scene" src="./assets/scene-suzhou.webp" alt="Pixel art of Yunze exploring Suzhou" width="1672" height="941" loading="lazy" decoding="async">
+                <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
+              </div>
+              <p class="journey-period">2019.09 &ndash; 2023.07</p>
+              <h3>B.Sc. in Computer Science and Technology</h3>
+              <p class="journey-affiliations">
+                <span><a href="https://www.xjtlu.edu.cn/en" target="_blank" rel="noopener">Xi'an Jiaotong-Liverpool University</a>, Suzhou, China</span>
+                <span><a href="https://www.liverpool.ac.uk/" target="_blank" rel="noopener">University of Liverpool</a>, United Kingdom</span>
+              </p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer page-width" id="contact" data-world-mood="home">
+    <div class="footer-main">
+      <div class="footer-note">
+        <span class="footer-avatar" aria-hidden="true"><i></i></span>
+        <div>
+          <strong>Still moving.</strong>
+          <p>More places and ideas to come.</p>
+        </div>
+      </div>
+      <div class="footer-contact">
+        <div class="footer-heading">
+          <p class="footer-label">Contact</p>
+          <p>Research ideas, collaboration, or simply saying hello.</p>
+        </div>
+        <nav class="footer-links" aria-label="Contact and profile links">
+          <a class="contact-link" href="mailto:YunzeSong77@gmail.com">
+            <span class="contact-icon contact-icon-email" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img"><path d="M3.5 5.5h17v13h-17z"></path><path d="m4 6 8 6.3L20 6"></path></svg>
+            </span>
+            <span>Email</span>
+          </a>
+          <a class="contact-link" href="https://github.com/YunzeSong" target="_blank" rel="noopener">
+            <span class="contact-icon contact-icon-github" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img"><path d="M12 2.7a9.5 9.5 0 0 0-3 18.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.7.1-.7.1-.7 1 0 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 2.9.8.1-.7.4-1.1.7-1.3-2.3-.3-4.6-1.1-4.6-4.9 0-1.1.4-2 1-2.6-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 4.9 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.7.7 1 1.5 1 2.6 0 3.8-2.3 4.6-4.6 4.9.4.3.7 1 .7 1.9v2.8c0 .3.2.6.7.5A9.5 9.5 0 0 0 12 2.7Z"></path></svg>
+            </span>
+            <span>GitHub</span>
+          </a>
+          <a class="contact-link" href="https://scholar.google.com/citations?user=qOQwD7UAAAAJ" target="_blank" rel="noopener">
+            <span class="contact-icon contact-icon-scholar" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img"><path d="m2.5 8.2 9.5-5 9.5 5-9.5 5-9.5-5Z"></path><path d="M6.2 10.2v4.4c0 2 2.6 3.6 5.8 3.6s5.8-1.6 5.8-3.6v-4.4"></path><path d="M21.5 8.2v6"></path></svg>
+            </span>
+            <span>Scholar</span>
+          </a>
+          <details class="wechat-contact">
+            <summary class="contact-link">
+              <span class="contact-icon contact-icon-wechat" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img"><path d="M10.2 4.2c-4.3 0-7.7 2.8-7.7 6.2 0 1.9 1 3.5 2.7 4.7l-.6 2.3 2.7-1.3c.9.3 1.9.5 2.9.5h.5a5.4 5.4 0 0 1-.4-2c0-3.4 3.1-6.1 7-6.1h.4c-1-2.5-3.9-4.3-7.5-4.3Z"></path><path d="M21.5 14.5c0-2.7-2.7-4.9-6-4.9s-6 2.2-6 4.9 2.7 4.9 6 4.9c.8 0 1.5-.1 2.2-.3l2.2 1 .5-1.8c.7-.7 1.1-1.5 1.1-2.5v-1.3Z"></path><circle cx="7.8" cy="9.2" r=".7"></circle><circle cx="12.4" cy="9.2" r=".7"></circle><circle cx="13.5" cy="14" r=".6"></circle><circle cx="17.5" cy="14" r=".6"></circle></svg>
+              </span>
+              <span>WeChat</span>
+            </summary>
+            <div class="wechat-card">
+              <img src="./assets/wechat.jpg" alt="WeChat QR code for Yunze Song" width="635" height="642" loading="lazy">
+              <p>Scan to add me on WeChat.</p>
+            </div>
+          </details>
+        </nav>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Academic page</p>
+      <p>&copy; <span id="year"></span> Yunze Song</p>
+    </div>
+  </footer>
+</body>
+</html>

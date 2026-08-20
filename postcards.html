@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f0e5">
+  <meta name="description" content="Postcards by Yunze Song: photographs, places, and pieces of everyday life.">
+  <title>Postcards &middot; Yunze Song</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@1,6..72,500&amp;display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/logo-matcha-basque.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./site.css">
+  <link rel="stylesheet" href="./postcards.css">
+  <script defer src="./postcards.js"></script>
+</head>
+<body class="postcards-page">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="./index.html" aria-label="Yunze Song, go to homepage">
+        <img src="./assets/logo-matcha-basque.svg" alt="" width="32" height="32" aria-hidden="true">
+        <span>Yunze Song</span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="./index.html">Home</a>
+        <a href="./academic.html">Academic</a>
+        <a class="is-current" href="./postcards.html" aria-current="page">Postcards</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="postcards-main">
+    <header class="postcards-intro">
+      <p class="postcards-kicker">Places &middot; photographs &middot; ordinary days</p>
+      <h1>Postcards</h1>
+      <p>A growing collection of places I have passed through and moments I wanted to keep.</p>
+    </header>
+
+    <section class="postcards-archive" aria-labelledby="archive-title">
+      <header class="archive-heading">
+        <h2 id="archive-title">Archive</h2>
+        <span>000 entries</span>
+      </header>
+
+      <div class="empty-postcard" data-postcard>
+        <div class="postcard-picture" aria-hidden="true">
+          <span class="postcard-sun"></span>
+          <span class="postcard-cloud postcard-cloud-one"></span>
+          <span class="postcard-cloud postcard-cloud-two"></span>
+          <span class="postcard-hill postcard-hill-one"></span>
+          <span class="postcard-hill postcard-hill-two"></span>
+          <span class="postcard-road"></span>
+          <span class="postcard-marker"></span>
+        </div>
+
+        <div class="postcard-message">
+          <div class="postcard-meta">
+            <span>Postcards &middot; No. 000</span>
+            <span class="postcard-stamp"><img src="./assets/logo-matcha-basque.svg" alt="" width="30" height="30"></span>
+          </div>
+          <div class="postcard-copy">
+            <p class="postcard-script">The first postcard is still on its way.</p>
+            <h2>Nothing mailed yet.</h2>
+            <p>The page is ready for photographs, dates, places, and a few lines from the road.</p>
+          </div>
+          <div class="address-lines" aria-hidden="true"><i></i><i></i><i></i></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="postcards-footer">
+    <p>More soon.</p>
+    <p>&copy; <span data-year></span> Yunze Song</p>
+  </footer>
+</body>
+</html>

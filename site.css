@@ -1,0 +1,145 @@
+:root {
+  --paper: #f5f0e5;
+  --ink: #1d2824;
+  --muted: #49534f;
+  --red: #a74639;
+  --gold: #d6a84d;
+  --page: min(1120px, calc(100vw - 48px));
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--paper);
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 4px;
+}
+
+.site-header {
+  border-bottom: 1px solid rgba(29, 40, 36, .12);
+  background: rgba(245, 240, 229, .92);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: var(--page);
+  min-height: 68px;
+  margin-inline: auto;
+}
+
+.wordmark {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  color: var(--ink);
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: -.02em;
+}
+
+.wordmark img {
+  width: 32px;
+  height: 32px;
+  image-rendering: pixelated;
+}
+
+.site-nav {
+  display: flex;
+  gap: clamp(18px, 3vw, 36px);
+  align-items: center;
+}
+
+.site-nav a {
+  position: relative;
+  padding-block: 10px;
+  color: var(--muted);
+  font-size: .92rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-nav a::after {
+  position: absolute;
+  right: 0;
+  bottom: -6px;
+  left: 0;
+  height: 2px;
+  background: var(--red);
+  content: "";
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .2s ease;
+}
+
+.site-nav a:hover::after,
+.site-nav a.is-current::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.empty-home {
+  min-height: calc(100svh - 69px);
+}
+
+@media (max-width: 760px) {
+  :root {
+    --page: min(100% - 34px, 680px);
+  }
+
+  .header-inner {
+    min-height: 62px;
+  }
+
+  .site-nav {
+    gap: 16px;
+  }
+
+  .site-nav a {
+    font-size: .8rem;
+  }
+}
+
+@media (max-width: 520px) {
+  :root {
+    --page: calc(100% - 28px);
+  }
+
+  .wordmark {
+    gap: 8px;
+    font-size: .9rem;
+  }
+
+  .wordmark img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .site-nav {
+    gap: 10px;
+  }
+
+  .site-nav a {
+    font-size: .75rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .site-nav a:first-child {
+    display: none;
+  }
+}
