@@ -112,9 +112,32 @@ code{
 }
 .section:last-of-type{ border-bottom: none; }
 
+.intro-layout{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 190px;
+  gap: 1.5rem;
+  align-items: center;
+}
+.intro-content{ min-width: 0; }
 .intro .lead{
   margin-top: 0;
   font-size: 1.03rem;
+}
+.portrait{
+  margin: 0;
+  width: 150px;
+  aspect-ratio: 9 / 16;
+  justify-self: end;
+}
+.portrait img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 42%;
+  display: block;
+  border: 1px solid var(--rule);
+  border-radius: 16px;
+  box-shadow: 0 10px 28px var(--shadow);
 }
 .meta{
   margin: 1rem 0 0.75rem;
@@ -133,6 +156,14 @@ code{
 .meta-label{ color: var(--muted); }
 .note{ color: var(--muted); font-size: 0.95rem; }
 
+@media (max-width: 620px){
+  .intro-layout{ grid-template-columns: 1fr; }
+  .portrait{
+    width: min(170px, 55vw);
+    justify-self: center;
+  }
+}
+
 h2{
   margin: 0 0 0.75rem;
   font-size: 1.35rem;
@@ -146,7 +177,7 @@ h3{
 
 .paper{
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 340px minmax(0, 1fr);
   gap: 1rem;
   border: 1px solid var(--rule);
   border-radius: 14px;
@@ -174,6 +205,7 @@ h3{
   place-items: center;
   color: var(--muted);
 }
+.thumb--trustjudge{ height: 210px; }
 .thumb-note{
   margin: 0.6rem 0 0;
   color: var(--muted);
@@ -239,4 +271,10 @@ h3{
   border: 1px solid var(--rule);
   border-radius: 12px;
   display: block;
+}
+
+.paper-figure--trustjudge{
+  width: 90%;
+  height: auto;
+  object-fit: contain;
 }
