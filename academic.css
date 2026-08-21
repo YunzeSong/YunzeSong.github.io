@@ -1839,7 +1839,8 @@ html.scene-enhanced {
     width: max-content;
   }
 
-  .journey-item {
+  .journey-item,
+  .journey-item.is-active {
     display: grid;
     flex: 0 0 min(86vw, 620px);
     grid-template-columns: 1fr;
