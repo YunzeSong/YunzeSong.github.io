@@ -1,3 +1,31 @@
 # macOS
 .DS_Store
 **/.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local tooling and caches
+node_modules/
+.cache/
+coverage/
+dist/
+tmp/
+temp/
+*.log
+*.tmp
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Responsive screenshots generated during local browser checks
+responsive-*.png

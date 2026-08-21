@@ -11,7 +11,11 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@1,6..72,500&amp;display=swap" rel="stylesheet">
   <link rel="icon" href="./assets/logo-matcha-basque.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./academic.css">
+  <link rel="stylesheet" href="./site-shell.css">
+  <link rel="stylesheet" href="./name-flow.css">
+  <script defer src="./location.js"></script>
   <script defer src="./academic.js"></script>
+  <script defer src="./name-flow.js"></script>
 </head>
 <body class="academic-page">
   <a class="skip-link" href="#content">Skip to content</a>
@@ -25,104 +29,96 @@
         <span>Yunze Song</span>
       </a>
       <div class="academic-nav-groups">
-        <nav class="site-nav" aria-label="Site navigation">
-          <a href="./index.html">Home</a>
-          <a class="is-current" href="./academic.html" aria-current="page">Academic</a>
-          <a href="./postcards.html">Postcards</a>
-        </nav>
-        <span class="nav-divider" aria-hidden="true"></span>
         <nav class="section-nav" aria-label="Academic page sections">
           <a href="#publications">Publications</a>
           <a href="#talks">Talks</a>
           <a href="#journey">Journey</a>
           <a href="#contact">Contact</a>
         </nav>
+        <span class="nav-divider" aria-hidden="true"></span>
+        <nav class="site-nav" aria-label="Site navigation">
+          <a href="./index.html">Home</a>
+          <a class="is-current" href="./academic.html" aria-current="page">Academic</a>
+          <a href="./postcards.html">Postcards</a>
+        </nav>
       </div>
     </div>
   </header>
 
+  <div class="academic-deck">
+    <div class="academic-stage">
   <main id="content">
-    <section class="hero page-width" id="top" aria-labelledby="hero-title" data-world-mood="beijing">
+    <section class="hero page-width" id="top" aria-labelledby="hero-title" data-world-mood="beijing" data-scene-panel="top">
       <div class="hero-copy">
-        <h1 id="hero-title">I work on reinforcement learning and trustworthy language models.</h1>
+        <h1 id="hero-title">I study how learning systems reason, evaluate, and improve.</h1>
         <p class="hero-intro">
-          Hello, I am Yunze &mdash; a research intern at Hunyuan, Tencent, and a graduate student at the National University of Singapore. I build and study learning systems that reason, evaluate, and improve.
+          I am a research intern at Hunyuan, Tencent, and a master student at the National University of Singapore.
         </p>
+        <p class="hero-focus">My research focuses on reinforcement learning, trustworthy language models, and reliable evaluation for reasoning systems.</p>
       </div>
-
-      <figure class="city-player" data-city-player>
-        <div class="city-player-bar" aria-hidden="true">
-          <span class="bar-lights"><i></i><i></i><i></i></span>
-          <span data-city-coordinates>39.90 N / 116.41 E</span>
-        </div>
-        <div class="city-scene scene-motion-surface" data-motion-scene="beijing">
-          <img
-            data-current-city-image
-            src="./assets/scene-beijing.webp"
-            alt="Pixel art of Yunze exploring Beijing near the Forbidden City"
-            width="1672"
-            height="941"
-            decoding="async"
-            fetchpriority="high">
-          <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
-          <span class="scene-glint scene-glint-one" aria-hidden="true"></span>
-          <span class="scene-glint scene-glint-two" aria-hidden="true"></span>
-        </div>
-        <figcaption>
-          <div class="scene-note">
-            <strong data-city-caption>Currently in Beijing.</strong>
-          </div>
-        </figcaption>
+      <figure class="hero-portrait">
+        <img class="hero-portrait-base" src="./assets/selfie.svg" alt="Pixel art portrait of Yunze Song" width="1086" height="1448">
+        <img class="hero-portrait-smile" src="./assets/selfie-smile.svg" alt="" width="1086" height="1448" aria-hidden="true">
       </figure>
     </section>
 
-    <section class="section page-width" id="publications" aria-labelledby="publications-title" data-world-mood="research">
+    <section class="section page-width" id="publications" aria-labelledby="publications-title" data-world-mood="research" data-scene-panel="publications">
       <header class="section-heading">
         <div>
-          <p class="section-kicker">Selected research</p>
           <h2 id="publications-title">Publications</h2>
         </div>
       </header>
 
-      <div class="publication-list">
-        <article class="publication">
-          <a class="publication-image publication-image-trustjudge" href="https://arxiv.org/pdf/2509.21117.pdf" target="_blank" rel="noopener" aria-label="Read TrustJudge paper">
+      <div class="publication-pages" data-publication-pages>
+      <div class="publication-list publication-pair is-active" data-publication-page>
+        <a class="publication" href="https://arxiv.org/pdf/2509.21117.pdf" target="_blank" rel="noopener" aria-label="Read TrustJudge paper">
+          <span class="publication-image publication-image-trustjudge" aria-hidden="true">
             <img src="./assets/publication-trustjudge.jpg" alt="TrustJudge comparison chart" width="1818" height="1218" loading="lazy" decoding="async">
-          </a>
+          </span>
           <div class="publication-copy">
-            <p class="publication-meta"><span>ICLR 2026</span></p>
-            <h3>TrustJudge: Inconsistencies of LLM-as-a-Judge and How to Alleviate Them</h3>
-            <div class="publication-links">
-              <a href="https://arxiv.org/pdf/2509.21117.pdf" target="_blank" rel="noopener">Paper <span aria-hidden="true">&#8599;</span></a>
-              <a href="https://github.com/TrustJudge/TrustJudge" target="_blank" rel="noopener">Code <span aria-hidden="true">&#8599;</span></a>
-              <span class="repo-stars" data-repo="TrustJudge/TrustJudge" aria-label="GitHub stars">Stars <span data-star-count>&ndash;</span></span>
+            <div class="publication-topline">
+              <p class="publication-meta"><span>ICLR 2026</span></p>
+              <div class="publication-metrics" aria-label="Paper metrics">
+                <span class="publication-metric" data-scholar-paper="trustjudge" title="Citation count from Google Scholar">
+                  <strong data-citation-count aria-live="polite">&mdash;</strong><span>Citations</span>
+                </span>
+                <span class="publication-metric" data-repo="TrustJudge/TrustJudge" title="Live star count from GitHub">
+                  <strong data-star-count aria-live="polite">&mdash;</strong><span>Stars</span>
+                </span>
+              </div>
             </div>
+            <h3>TrustJudge: Inconsistencies of LLM-as-a-Judge and How to Alleviate Them</h3>
             <p class="publication-abstract">We identify two fundamental inconsistencies in LLM-as-a-judge evaluation: Score-Comparison inconsistency and Pairwise Transitivity inconsistency. We propose TrustJudge, a probabilistic framework with distribution-sensitive scoring and likelihood-aware aggregation to alleviate these issues and improve reliability of automated assessment.</p>
           </div>
-        </article>
+        </a>
 
-        <article class="publication">
-          <a class="publication-image" href="https://arxiv.org/pdf/2408.11381" target="_blank" rel="noopener" aria-label="Read RAGLAB paper">
+        <a class="publication" href="https://arxiv.org/pdf/2408.11381" target="_blank" rel="noopener" aria-label="Read RAGLAB paper">
+          <span class="publication-image" aria-hidden="true">
             <img src="./assets/publication-raglab.jpg" alt="Overview of the modular RAGLAB framework" width="1695" height="1014" loading="lazy" decoding="async">
-          </a>
+          </span>
           <div class="publication-copy">
-            <p class="publication-meta"><span>EMNLP 2024</span></p>
-            <h3>RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation</h3>
-            <div class="publication-links">
-              <a href="https://arxiv.org/pdf/2408.11381" target="_blank" rel="noopener">Paper <span aria-hidden="true">&#8599;</span></a>
-              <a href="https://github.com/fate-ubw/RAGLAB" target="_blank" rel="noopener">Code <span aria-hidden="true">&#8599;</span></a>
-              <span class="repo-stars" data-repo="fate-ubw/RAGLAB" aria-label="GitHub stars">Stars <span data-star-count>&ndash;</span></span>
+            <div class="publication-topline">
+              <p class="publication-meta"><span>EMNLP 2024</span></p>
+              <div class="publication-metrics" aria-label="Paper metrics">
+                <span class="publication-metric" data-scholar-paper="raglab" title="Citation count from Google Scholar">
+                  <strong data-citation-count aria-live="polite">&mdash;</strong><span>Citations</span>
+                </span>
+                <span class="publication-metric" data-repo="fate-ubw/RAGLAB" title="Live star count from GitHub">
+                  <strong data-star-count aria-live="polite">&mdash;</strong><span>Stars</span>
+                </span>
+              </div>
             </div>
+            <h3>RAGLAB: A Modular and Research-Oriented Unified Framework for Retrieval-Augmented Generation</h3>
             <p class="publication-abstract">Two major obstacles hinder RAG's progress: (1) lack of thorough and fair comparisons between emerging RAG algorithms; (2) high-level abstractions in open-source tools reduce transparency and limit innovation. We introduce RAGLAB, a modular, research-focused open-source library that replicates existing algorithms and provides an ecosystem for exploring RAG techniques, enabling fair comparisons across benchmarks.</p>
           </div>
-        </article>
+        </a>
+      </div>
       </div>
     </section>
 
-    <section class="section page-width" id="talks" aria-labelledby="talks-title" data-world-mood="signal">
+    <section class="section page-width" id="talks" aria-labelledby="talks-title" data-world-mood="signal" data-scene-panel="talks">
       <header class="section-heading section-heading-compact">
         <div>
-          <p class="section-kicker">Speaking</p>
           <h2 id="talks-title">Talks</h2>
         </div>
       </header>
@@ -144,29 +140,15 @@
       </a>
     </section>
 
-    <section class="journey-section" id="journey" aria-labelledby="journey-title" data-world-mood="journey">
+    <section class="journey-section" id="journey" aria-labelledby="journey-title" data-world-mood="journey" data-scene-panel="journey">
       <div class="page-width">
         <header class="section-heading journey-heading">
           <div>
-            <p class="section-kicker">One continuous route</p>
             <h2 id="journey-title">Journey</h2>
           </div>
         </header>
 
-        <div class="journey-layout">
-          <figure class="journey-stage" aria-live="polite">
-            <div class="journey-stage-bar">
-              <span data-journey-place>Shenzhen</span>
-              <span data-journey-index>01 / 05</span>
-            </div>
-            <div class="journey-stage-image scene-motion-surface" data-motion-scene="shenzhen">
-              <img data-journey-image src="./assets/scene-shenzhen.webp" alt="Pixel art scene for Shenzhen" width="1672" height="941" decoding="async">
-              <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
-            </div>
-            <figcaption data-journey-caption>A new chapter with Hunyuan, Tencent, in Shenzhen.</figcaption>
-            <div class="journey-progress" aria-hidden="true"><span></span></div>
-          </figure>
-
+        <div class="journey-layout" data-journey-viewport>
           <ol class="journey-list">
             <li class="journey-item is-active" data-journey-scene="shenzhen" data-journey-caption="A new chapter with Hunyuan, Tencent, in Shenzhen.">
               <div class="journey-mobile-frame scene-motion-surface" data-motion-scene="shenzhen">
@@ -221,62 +203,70 @@
             </li>
           </ol>
         </div>
+        <div class="journey-route" aria-hidden="true">
+          <span class="journey-route-fill"></span>
+          <i></i><i></i><i></i><i></i><i></i>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer page-width" id="contact" data-world-mood="home">
-    <div class="footer-main">
-      <div class="footer-note">
-        <span class="footer-avatar" aria-hidden="true"><i></i></span>
-        <div>
-          <strong>Still moving.</strong>
-          <p>More places and ideas to come.</p>
-        </div>
+  <footer class="site-footer page-width" id="contact" aria-labelledby="contact-title" data-world-mood="home" data-scene-panel="contact">
+    <header class="section-heading section-heading-compact">
+      <div>
+        <h2 id="contact-title">Contact</h2>
       </div>
-      <div class="footer-contact">
-        <div class="footer-heading">
-          <p class="footer-label">Contact</p>
-          <p>Research ideas, collaboration, or simply saying hello.</p>
-        </div>
-        <nav class="footer-links" aria-label="Contact and profile links">
-          <a class="contact-link" href="mailto:YunzeSong77@gmail.com">
+    </header>
+    <div class="contact-layout">
+      <div class="contact-intro">
+        <span class="footer-avatar" aria-hidden="true"><i></i></span>
+        <p class="contact-kicker">Open channel</p>
+        <h3>Let&rsquo;s exchange research ideas and build something useful.</h3>
+        <p>For collaboration, academic discussion, or simply saying hello, choose the channel that works best for you.</p>
+      </div>
+      <nav class="contact-grid" aria-label="Contact and profile links">
+          <a class="contact-card" href="mailto:YunzeSong77@gmail.com">
             <span class="contact-icon contact-icon-email" aria-hidden="true">
               <svg viewBox="0 0 24 24" role="img"><path d="M3.5 5.5h17v13h-17z"></path><path d="m4 6 8 6.3L20 6"></path></svg>
             </span>
-            <span>Email</span>
+            <span class="contact-card-copy"><strong>Email</strong><small>YunzeSong77@gmail.com</small></span>
+            <span class="contact-arrow" aria-hidden="true">&#8599;</span>
           </a>
-          <a class="contact-link" href="https://github.com/YunzeSong" target="_blank" rel="noopener">
+          <a class="contact-card" href="https://github.com/YunzeSong" target="_blank" rel="noopener">
             <span class="contact-icon contact-icon-github" aria-hidden="true">
               <svg viewBox="0 0 24 24" role="img"><path d="M12 2.7a9.5 9.5 0 0 0-3 18.5c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.7.1-.7.1-.7 1 0 1.6 1.1 1.6 1.1.9 1.6 2.4 1.1 2.9.8.1-.7.4-1.1.7-1.3-2.3-.3-4.6-1.1-4.6-4.9 0-1.1.4-2 1-2.6-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.7 1a9.4 9.4 0 0 1 4.9 0c1.9-1.3 2.7-1 2.7-1 .5 1.3.2 2.3.1 2.6.7.7 1 1.5 1 2.6 0 3.8-2.3 4.6-4.6 4.9.4.3.7 1 .7 1.9v2.8c0 .3.2.6.7.5A9.5 9.5 0 0 0 12 2.7Z"></path></svg>
             </span>
-            <span>GitHub</span>
+            <span class="contact-card-copy"><strong>GitHub</strong><small>YunzeSong</small></span>
+            <span class="contact-arrow" aria-hidden="true">&#8599;</span>
           </a>
-          <a class="contact-link" href="https://scholar.google.com/citations?user=qOQwD7UAAAAJ" target="_blank" rel="noopener">
+          <a class="contact-card" href="https://scholar.google.com/citations?user=qOQwD7UAAAAJ" target="_blank" rel="noopener">
             <span class="contact-icon contact-icon-scholar" aria-hidden="true">
               <svg viewBox="0 0 24 24" role="img"><path d="m2.5 8.2 9.5-5 9.5 5-9.5 5-9.5-5Z"></path><path d="M6.2 10.2v4.4c0 2 2.6 3.6 5.8 3.6s5.8-1.6 5.8-3.6v-4.4"></path><path d="M21.5 8.2v6"></path></svg>
             </span>
-            <span>Scholar</span>
+            <span class="contact-card-copy"><strong>Google Scholar</strong><small>Publications &amp; citations</small></span>
+            <span class="contact-arrow" aria-hidden="true">&#8599;</span>
           </a>
           <details class="wechat-contact">
-            <summary class="contact-link">
+            <summary class="contact-card">
               <span class="contact-icon contact-icon-wechat" aria-hidden="true">
                 <svg viewBox="0 0 24 24" role="img"><path d="M10.2 4.2c-4.3 0-7.7 2.8-7.7 6.2 0 1.9 1 3.5 2.7 4.7l-.6 2.3 2.7-1.3c.9.3 1.9.5 2.9.5h.5a5.4 5.4 0 0 1-.4-2c0-3.4 3.1-6.1 7-6.1h.4c-1-2.5-3.9-4.3-7.5-4.3Z"></path><path d="M21.5 14.5c0-2.7-2.7-4.9-6-4.9s-6 2.2-6 4.9 2.7 4.9 6 4.9c.8 0 1.5-.1 2.2-.3l2.2 1 .5-1.8c.7-.7 1.1-1.5 1.1-2.5v-1.3Z"></path><circle cx="7.8" cy="9.2" r=".7"></circle><circle cx="12.4" cy="9.2" r=".7"></circle><circle cx="13.5" cy="14" r=".6"></circle><circle cx="17.5" cy="14" r=".6"></circle></svg>
               </span>
-              <span>WeChat</span>
+              <span class="contact-card-copy"><strong>WeChat</strong><small>Scan the QR code</small></span>
+              <span class="contact-arrow" aria-hidden="true">+</span>
             </summary>
             <div class="wechat-card">
               <img src="./assets/wechat.jpg" alt="WeChat QR code for Yunze Song" width="635" height="642" loading="lazy">
               <p>Scan to add me on WeChat.</p>
             </div>
           </details>
-        </nav>
-      </div>
+      </nav>
     </div>
     <div class="footer-bottom">
-      <p>Academic page</p>
       <p>&copy; <span id="year"></span> Yunze Song</p>
     </div>
   </footer>
+    </div>
+    <div class="academic-scroll-track" aria-hidden="true"></div>
+  </div>
 </body>
 </html>

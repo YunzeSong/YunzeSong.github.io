@@ -8,9 +8,14 @@
   <title>Yunze Song</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@1,6..72,500&amp;display=swap" rel="stylesheet">
   <link rel="icon" href="./assets/logo-matcha-basque.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./site.css">
+  <link rel="stylesheet" href="./site-shell.css">
+  <link rel="stylesheet" href="./name-flow.css">
+  <script defer src="./location.js"></script>
+  <script defer src="./home.js"></script>
+  <script defer src="./name-flow.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -27,6 +32,30 @@
     </div>
   </header>
 
-  <main class="empty-home" aria-label="Personal homepage"></main>
+  <main class="home-main" aria-label="Personal homepage">
+    <figure class="city-player" data-city-player>
+      <div class="city-player-bar" aria-hidden="true">
+        <span class="bar-lights"><i></i><i></i><i></i></span>
+        <span data-city-coordinates>39.90 N / 116.41 E</span>
+      </div>
+      <div class="city-scene" data-motion-scene="beijing">
+        <img
+          data-current-city-image
+          src="./assets/scene-beijing.webp"
+          alt="Pixel art of Yunze exploring Beijing near the Forbidden City"
+          width="1672"
+          height="941"
+          decoding="async"
+          fetchpriority="high">
+        <span class="scene-glint scene-glint-one" aria-hidden="true"></span>
+        <span class="scene-glint scene-glint-two" aria-hidden="true"></span>
+      </div>
+      <figcaption>
+        <div class="scene-note">
+          <strong data-city-caption>Currently in Beijing.</strong>
+        </div>
+      </figcaption>
+    </figure>
+  </main>
 </body>
 </html>

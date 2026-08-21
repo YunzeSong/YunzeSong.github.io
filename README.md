@@ -14,7 +14,7 @@ The personal homepage is intentionally left as a minimal shell for now. The comp
 
 The Academic page is a dependency-free HTML/CSS/JavaScript pixel world. Its animated background changes with the page, and each city scene has its own environmental motion. Visitors can pause or resume all motion from the header.
 
-To change the current travel location, update `siteConfig.currentCity` near the top of `academic.js`.
+To change the current travel location, update `siteConfig.currentCity` near the top of `location.js`.
 
 ## Contact
 

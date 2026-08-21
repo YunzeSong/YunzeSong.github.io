@@ -1,0 +1,171 @@
+:root {
+  --page: min(1120px, calc(100% - 48px));
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+.header-inner,
+.home-main,
+.postcards-main,
+.page-width {
+  width: var(--page);
+  margin-inline: auto;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+  min-height: 68px;
+}
+
+.wordmark {
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  align-items: center;
+  color: var(--ink);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -.02em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.wordmark img {
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
+  image-rendering: pixelated;
+}
+
+.site-nav {
+  display: flex;
+  flex: 0 0 auto;
+  gap: clamp(18px, 3vw, 36px);
+  align-items: center;
+  width: max-content;
+}
+
+.site-nav a {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  height: 38px;
+  padding-block: 0;
+  font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: .92rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+}
+
+.site-nav a::after {
+  bottom: -6px;
+}
+
+@media (max-width: 760px) {
+  :root {
+    --page: min(680px, calc(100% - 34px));
+  }
+
+  .academic-page .site-header {
+    padding-bottom: 0;
+  }
+
+  .academic-page .header-inner {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 6px 14px;
+    height: auto;
+    min-height: 0;
+    padding-block: 8px 7px;
+  }
+
+  .academic-page .academic-nav-groups {
+    display: contents;
+  }
+
+  .academic-page .section-nav {
+    position: static;
+    grid-row: 2;
+    grid-column: 1 / -1;
+    justify-content: flex-start;
+    overflow-x: auto;
+    width: 100%;
+    min-width: 0;
+    padding-top: 0;
+    border-top: 0;
+    scrollbar-width: none;
+    overscroll-behavior-inline: contain;
+  }
+
+  .academic-page .section-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .academic-page .section-nav a {
+    flex: 0 0 auto;
+    line-height: 1.2;
+  }
+
+  .academic-page .site-nav {
+    grid-row: 1;
+    grid-column: 2;
+    justify-self: end;
+  }
+
+  .wordmark {
+    font-size: 1.1rem;
+  }
+
+  .site-nav {
+    gap: 16px;
+  }
+
+  .site-nav a {
+    font-size: .8rem;
+  }
+}
+
+@supports not (scrollbar-gutter: stable) {
+  html {
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 520px) {
+  :root {
+    --page: calc(100% - 28px);
+  }
+
+  .wordmark {
+    gap: 8px;
+    font-size: 1rem;
+  }
+
+  .wordmark img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .site-nav {
+    gap: 10px;
+  }
+
+  .site-nav a {
+    font-size: .75rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .academic-page .wordmark > span {
+    display: none;
+  }
+}

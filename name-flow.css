@@ -1,0 +1,237 @@
+.name-flow {
+  position: relative;
+  display: inline-block;
+  isolation: isolate;
+  line-height: inherit;
+}
+
+.name-flow-label {
+  display: block;
+  white-space: pre;
+  transition: opacity .16s ease;
+}
+
+.name-flow-display {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .16s ease;
+}
+
+.name-flow-token {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--token-left);
+  width: var(--token-width);
+  overflow: visible;
+}
+
+.name-flow-choice,
+.name-flow-candidate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: grid;
+  place-items: center;
+  line-height: 1;
+  transform-origin: center;
+}
+
+.name-flow-choice {
+  width: 100%;
+  color: var(--ink, #1d2824);
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: inherit;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+}
+
+.name-flow-candidate {
+  width: max(11px, 1.05em);
+  color: var(--green, #275a4a);
+  font-family: ui-monospace, "SFMono-Regular", Consolas, monospace;
+  font-size: .57em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.candidate-top {
+  --cascade-from: -185%;
+  --cascade-to: -118%;
+  --candidate-opacity: .26;
+  color: #70827b;
+}
+
+.candidate-center {
+  --cascade-from: -105%;
+  --cascade-to: -42%;
+  --candidate-opacity: .72;
+}
+
+.candidate-bottom {
+  --cascade-from: -28%;
+  --cascade-to: 42%;
+  --candidate-opacity: .2;
+  color: var(--gold, #d6a84d);
+}
+
+.name-flow-token.is-future .name-flow-candidate {
+  opacity: .08;
+  animation: none;
+}
+
+.name-flow-token.is-future .candidate-center {
+  opacity: .13;
+  transform: translate(-50%, -50%) scale(.72);
+}
+
+.name-flow-token.is-future .candidate-top {
+  transform: translate(-50%, -130%) scale(.62);
+}
+
+.name-flow-token.is-future .candidate-bottom {
+  transform: translate(-50%, 32%) scale(.62);
+}
+
+.name-flow-token.is-sampling .name-flow-candidate {
+  animation: logit-cascade .42s linear infinite;
+}
+
+.name-flow-token.is-sampling::after,
+.name-flow-token.is-resampling::after,
+.name-flow-token.is-choosing::after {
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  width: 3px;
+  height: 2px;
+  background: var(--gold, #d6a84d);
+  content: "";
+  opacity: .72;
+  transform: translateX(-50%);
+  animation: logit-pulse .5s steps(3, end) infinite;
+}
+
+.name-flow-token.is-resampling .candidate-center {
+  color: var(--red, #a74639);
+  opacity: .9;
+  transform: translate(-50%, -50%) scale(.92);
+  animation: candidate-reject .18s steps(3, end) infinite;
+}
+
+.name-flow-token.is-resampling .candidate-top,
+.name-flow-token.is-resampling .candidate-bottom {
+  opacity: .3;
+}
+
+.name-flow-token.is-resampling::after {
+  background: var(--red, #a74639);
+}
+
+.name-flow-token.is-choosing .candidate-center {
+  color: var(--green, #275a4a);
+  font-size: .74em;
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+  animation: candidate-choose .2s steps(3, end) both;
+}
+
+.name-flow-token.is-choosing .candidate-top,
+.name-flow-token.is-choosing .candidate-bottom {
+  opacity: .08;
+  transform: translate(-50%, -50%) scale(.55);
+  transition: opacity .12s ease, transform .12s ease;
+}
+
+.name-flow-token.is-locked .name-flow-choice {
+  opacity: 1;
+  animation: token-lock .2s steps(3, end) both;
+}
+
+.name-flow-token.is-locked .name-flow-candidate {
+  opacity: 0;
+}
+
+.name-flow.is-active:not(.is-holding, .is-resetting) .name-flow-label {
+  opacity: 0;
+}
+
+.name-flow.is-active:not(.is-holding, .is-resetting) .name-flow-display {
+  opacity: 1;
+}
+
+.name-flow.is-confirming .name-flow-token:last-child::after {
+  position: absolute;
+  top: 50%;
+  right: -3px;
+  width: 3px;
+  height: 3px;
+  background: var(--gold, #d6a84d);
+  box-shadow: 3px 0 rgba(214, 168, 77, .18), 0 3px rgba(214, 168, 77, .14);
+  content: "";
+  animation: decode-confirm .34s steps(4, end) both;
+}
+
+.name-flow.is-holding .name-flow-label,
+.name-flow.is-resetting .name-flow-label {
+  opacity: 1;
+}
+
+.name-flow.is-holding .name-flow-display,
+.name-flow.is-resetting .name-flow-display {
+  opacity: 0;
+}
+
+@keyframes logit-cascade {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, var(--cascade-from)) scale(.66);
+  }
+  24%, 72% {
+    opacity: var(--candidate-opacity);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, var(--cascade-to)) scale(.86);
+  }
+}
+
+@keyframes logit-pulse {
+  0%, 100% { opacity: .28; transform: translateX(-50%) scaleX(.65); }
+  50% { opacity: .82; transform: translateX(-50%) scaleX(1); }
+}
+
+@keyframes candidate-reject {
+  0%, 100% { transform: translate(-50%, -50%) translateX(0); }
+  50% { transform: translate(-50%, -50%) translateX(1px); }
+}
+
+@keyframes candidate-choose {
+  from { opacity: .45; transform: translate(-50%, -50%) scale(.78); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@keyframes token-lock {
+  0% { color: var(--gold, #d6a84d); opacity: .5; transform: translate(-50%, -50%) scale(.88); }
+  100% { color: var(--ink, #1d2824); opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@keyframes decode-confirm {
+  0% { opacity: 0; transform: translateY(-50%) scale(.5); }
+  55% { opacity: .9; transform: translateY(-50%) scale(1.2); }
+  100% { opacity: 0; transform: translateY(-50%) scale(.6); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .name-flow-display {
+    display: none;
+  }
+
+  .name-flow-label {
+    opacity: 1;
+  }
+}
