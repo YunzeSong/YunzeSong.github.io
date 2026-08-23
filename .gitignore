@@ -29,3 +29,6 @@ temp/
 
 # Responsive screenshots generated during local browser checks
 responsive-*.png
+
+# Generated visual review artifacts
+output/

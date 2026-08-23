@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./name-flow.css">
   <script defer src="./location.js"></script>
   <script defer src="./home.js"></script>
+  <script defer src="./scene-engine.js"></script>
   <script defer src="./name-flow.js"></script>
 </head>
 <body>
@@ -33,22 +34,32 @@
   </header>
 
   <main class="home-main" aria-label="Personal homepage">
-    <figure class="city-player" data-city-player>
+    <figure class="city-player" data-city-player data-home-scene>
       <div class="city-player-bar" aria-hidden="true">
         <span class="bar-lights"><i></i><i></i><i></i></span>
         <span data-city-coordinates>39.90 N / 116.41 E</span>
       </div>
-      <div class="city-scene" data-motion-scene="beijing">
-        <img
-          data-current-city-image
-          src="./assets/scene-beijing.webp"
-          alt="Pixel art of Yunze exploring Beijing near the Forbidden City"
-          width="1672"
-          height="941"
-          decoding="async"
-          fetchpriority="high">
-        <span class="scene-glint scene-glint-one" aria-hidden="true"></span>
-        <span class="scene-glint scene-glint-two" aria-hidden="true"></span>
+      <div
+        class="city-scene city-scene-dynamic"
+        data-motion-scene="beijing"
+        data-scene-surface
+        tabindex="0"
+        aria-label="Interactive pixel-art view of Beijing. Move or tap over the moat to create ripples; an occasional magpie reacts to the pointer.">
+        <div class="city-scene-world" data-scene-world>
+          <img
+            data-current-city-image
+            data-scene-image
+            src="./assets/scenes/beijing/summer.webp"
+            alt="Pixel art of Beijing with a palace roof, the Forbidden City corner tower, its moat, and the distant CBD skyline"
+            width="1672"
+            height="941"
+            decoding="async"
+            fetchpriority="high">
+          <canvas class="city-scene-motion" data-scene-canvas aria-hidden="true"></canvas>
+          <noscript>
+            <img src="./assets/scenes/beijing/summer.webp" alt="Pixel art of Beijing" width="1672" height="941">
+          </noscript>
+        </div>
       </div>
       <figcaption>
         <div class="scene-note">

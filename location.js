@@ -1,15 +1,16 @@
 // Change this one value when Yunze moves: beijing, singapore, shenzhen, hangzhou, or suzhou.
 window.siteLocation = {
   siteConfig: {
-    currentCity: "beijing"
+    currentCity: "beijing",
+    sceneContextEndpoint: "https://yunzesong-scene-context.yunzesong-scene-context.workers.dev/v1/scene-context"
   },
   cities: {
     beijing: {
       label: "Beijing",
       coordinates: "39.90 N / 116.41 E",
-      src: "./assets/scene-beijing.webp",
+      src: "./assets/scenes/beijing/summer.webp",
       caption: "Currently in Beijing.",
-      alt: "Pixel art of Yunze exploring Beijing near the Forbidden City"
+      alt: "Pixel art of Beijing with a palace roof, the Forbidden City corner tower, its moat, and the distant CBD skyline"
     },
     singapore: {
       label: "Singapore",

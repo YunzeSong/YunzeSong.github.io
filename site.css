@@ -108,8 +108,6 @@ a:focus-visible {
 }
 
 .city-player {
-  --scene-x: 0px;
-  --scene-y: 0px;
   --scene-scale: 1.018;
   position: relative;
   width: min(760px, 100%);
@@ -174,53 +172,62 @@ a:focus-visible {
   background: #b9c7bd;
 }
 
-.city-scene img {
-  position: relative;
-  z-index: 1;
+.city-scene-dynamic {
+  cursor: default;
+  touch-action: pan-y;
+}
+
+.city-scene-dynamic.is-water {
+  cursor: crosshair;
+}
+
+.city-scene-world {
+  --parallax-x: 0px;
+  --parallax-y: 0px;
+  position: absolute;
+  inset: 0;
+  transform-origin: center;
+  animation: dynamic-scene-breathe 12s steps(48, end) infinite alternate;
+  will-change: transform;
+}
+
+.city-scene img,
+.city-scene-motion {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
+}
+
+.city-scene img {
+  z-index: 1;
   object-fit: cover;
-  animation: scene-breathe 12s steps(48, end) infinite alternate;
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
-@keyframes scene-breathe {
-  0% {
-    transform: scale(var(--scene-scale)) translate(var(--scene-x), var(--scene-y));
-  }
-  50% {
-    transform: scale(calc(var(--scene-scale) + .008)) translate(calc(var(--scene-x) - 2px), calc(var(--scene-y) + 1px));
-  }
-  100% {
-    transform: scale(calc(var(--scene-scale) + .015)) translate(calc(var(--scene-x) + 2px), calc(var(--scene-y) - 1px));
-  }
-}
-
-.scene-glint {
-  position: absolute;
-  z-index: 3;
-  width: 5px;
-  height: 5px;
-  background: rgba(255, 249, 218, .95);
-  box-shadow: 5px 0 rgba(255, 249, 218, .95), -5px 0 rgba(255, 249, 218, .95), 0 5px rgba(255, 249, 218, .95), 0 -5px rgba(255, 249, 218, .95);
-  animation: glint 3.2s steps(2, end) infinite;
+.city-scene .scene-season-blend {
+  opacity: 0;
+  transition: opacity 900ms steps(12, end);
   pointer-events: none;
 }
 
-.scene-glint-one {
-  top: 25%;
-  left: 17%;
+.city-scene-motion {
+  z-index: 2;
+  image-rendering: pixelated;
+  pointer-events: none;
 }
 
-.scene-glint-two {
-  top: 19%;
-  right: 24%;
-  animation-delay: 1.4s;
-}
-
-@keyframes glint {
-  0%, 26%, 100% { opacity: 0; transform: scale(.7); }
-  30%, 48% { opacity: .75; transform: scale(1); }
-  52% { opacity: 0; transform: scale(.7); }
+@keyframes dynamic-scene-breathe {
+  0% {
+    transform: scale(var(--scene-scale)) translate(var(--parallax-x), var(--parallax-y));
+  }
+  50% {
+    transform: scale(calc(var(--scene-scale) + .008)) translate(calc(var(--parallax-x) - 2px), calc(var(--parallax-y) + 1px));
+  }
+  100% {
+    transform: scale(calc(var(--scene-scale) + .015)) translate(calc(var(--parallax-x) + 2px), calc(var(--parallax-y) - 1px));
+  }
 }
 
 .city-player figcaption {

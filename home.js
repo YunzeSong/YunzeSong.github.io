@@ -6,6 +6,7 @@ function setupCityPlayer() {
   const coordinates = document.querySelector("[data-city-coordinates]");
   const caption = document.querySelector("[data-city-caption]");
   const motionSurface = player?.querySelector("[data-motion-scene]");
+  const motionWorld = player?.querySelector("[data-scene-world]");
 
   if (!player || !image) return;
 
@@ -14,23 +15,24 @@ function setupCityPlayer() {
   if (coordinates) coordinates.textContent = city.coordinates;
   if (caption) caption.textContent = city.caption;
   if (motionSurface) motionSurface.dataset.motionScene = currentKey;
-  if (image.getAttribute("src") !== city.src) image.src = city.src;
+  const usesSceneEngine = currentKey === "beijing" && Boolean(motionSurface?.querySelector("[data-scene-canvas]"));
+  if (!usesSceneEngine && image.getAttribute("src") !== city.src) image.src = city.src;
   image.alt = city.alt;
 
   const finePointer = window.matchMedia("(pointer: fine)");
   const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
-  if (finePointer.matches && !reducedMotion.matches) {
+  if (!usesSceneEngine && finePointer.matches && !reducedMotion.matches) {
     player.addEventListener("pointermove", (event) => {
       const bounds = player.getBoundingClientRect();
       const x = ((event.clientX - bounds.left) / bounds.width - .5) * -5;
       const y = ((event.clientY - bounds.top) / bounds.height - .5) * -4;
-      player.style.setProperty("--scene-x", `${x}px`);
-      player.style.setProperty("--scene-y", `${y}px`);
+      motionWorld?.style.setProperty("--parallax-x", `${x}px`);
+      motionWorld?.style.setProperty("--parallax-y", `${y}px`);
     });
 
     player.addEventListener("pointerleave", () => {
-      player.style.setProperty("--scene-x", "0px");
-      player.style.setProperty("--scene-y", "0px");
+      motionWorld?.style.setProperty("--parallax-x", "0px");
+      motionWorld?.style.setProperty("--parallax-y", "0px");
     });
   }
 }
