@@ -6,27 +6,20 @@
   <meta name="theme-color" content="#f5f0e5">
   <meta name="description" content="The personal website of Yunze Song.">
   <title>Yunze Song</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@1,6..72,500&amp;display=swap" rel="stylesheet">
+  <link rel="canonical" href="https://yunzesong.com/">
   <link rel="icon" href="./assets/logo-matcha-basque.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./site.css">
   <link rel="stylesheet" href="./site-shell.css">
-  <link rel="stylesheet" href="./name-flow.css">
-  <script defer src="./location.js"></script>
-  <script defer src="./home.js"></script>
-  <script defer src="./scene-engine.js"></script>
-  <script defer src="./name-flow.js"></script>
 </head>
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <a class="wordmark" href="./index.html" aria-label="Yunze Song, homepage">
+      <a class="wordmark" href="/" aria-label="Yunze Song, homepage">
         <img src="./assets/logo-matcha-basque.svg" alt="" width="32" height="32" aria-hidden="true">
         <span>Yunze Song</span>
       </a>
       <nav class="site-nav" aria-label="Main navigation">
-        <a class="is-current" href="./index.html" aria-current="page">Home</a>
+        <a class="is-current" href="/" aria-current="page">Home</a>
         <a href="./academic.html">Academic</a>
         <a href="./postcards.html">Postcards</a>
       </nav>
@@ -34,36 +27,23 @@
   </header>
 
   <main class="home-main" aria-label="Personal homepage">
-    <figure class="city-player" data-city-player data-home-scene>
+    <figure class="city-player">
       <div class="city-player-bar" aria-hidden="true">
         <span class="bar-lights"><i></i><i></i><i></i></span>
-        <span data-city-coordinates>39.90 N / 116.41 E</span>
+        <span>39.90 N / 116.41 E</span>
       </div>
-      <div
-        class="city-scene city-scene-dynamic"
-        data-motion-scene="beijing"
-        data-scene-surface
-        tabindex="0"
-        aria-label="Interactive pixel-art view of Beijing. Move or tap over the moat to create ripples; an occasional magpie reacts to the pointer.">
-        <div class="city-scene-world" data-scene-world>
-          <img
-            data-current-city-image
-            data-scene-image
-            src="./assets/scenes/beijing/summer.webp"
-            alt="Pixel art of Beijing with a palace roof, the Forbidden City corner tower, its moat, and the distant CBD skyline"
-            width="1672"
-            height="941"
-            decoding="async"
-            fetchpriority="high">
-          <canvas class="city-scene-motion" data-scene-canvas aria-hidden="true"></canvas>
-          <noscript>
-            <img src="./assets/scenes/beijing/summer.webp" alt="Pixel art of Beijing" width="1672" height="941">
-          </noscript>
-        </div>
+      <div class="city-scene">
+        <img
+          src="./assets/scene-beijing.webp"
+          alt="Pixel art of Beijing with a palace roof, the Forbidden City corner tower, its moat, and the distant CBD skyline"
+          width="1672"
+          height="941"
+          decoding="async"
+          fetchpriority="high">
       </div>
       <figcaption>
         <div class="scene-note">
-          <strong data-city-caption>Currently in Beijing.</strong>
+          <strong>Currently in Beijing.</strong>
         </div>
       </figcaption>
     </figure>

@@ -5,7 +5,6 @@
     radial-gradient(circle at 9% 70%, rgba(109, 143, 161, .07), transparent 25rem),
     var(--paper);
 }
-
 .postcards-main {
   width: var(--page);
   min-height: calc(100svh - 190px);
@@ -72,8 +71,6 @@
 }
 
 .empty-postcard {
-  --rotate-x: 0deg;
-  --rotate-y: 0deg;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   width: min(860px, 100%);
@@ -83,13 +80,6 @@
   border: 1px solid #bfb6a7;
   background: #fbf8f1;
   box-shadow: 8px 9px 0 rgba(29, 40, 36, .1);
-  transform: perspective(1100px) rotateX(var(--rotate-x)) rotateY(var(--rotate-y));
-  transform-style: preserve-3d;
-  transition: box-shadow .25s ease, transform .18s ease-out;
-}
-
-.empty-postcard:hover {
-  box-shadow: 11px 13px 0 rgba(29, 40, 36, .12);
 }
 
 .postcard-picture {
@@ -121,7 +111,6 @@
   height: 34px;
   background: #e1b657;
   box-shadow: 7px 0 rgba(225, 182, 87, .3), -7px 0 rgba(225, 182, 87, .3), 0 7px rgba(225, 182, 87, .3), 0 -7px rgba(225, 182, 87, .3);
-  animation: postcard-sun 4s steps(6, end) infinite;
 }
 
 .postcard-cloud {
@@ -131,20 +120,17 @@
   height: 12px;
   background: rgba(250, 247, 226, .83);
   box-shadow: 13px -9px rgba(250, 247, 226, .83), 34px -3px rgba(250, 247, 226, .83);
-  animation: postcard-cloud 14s steps(40, end) infinite;
 }
 
 .postcard-cloud-one {
   top: 27%;
-  left: -90px;
+  left: 14%;
 }
 
 .postcard-cloud-two {
   top: 39%;
-  left: -140px;
+  left: 51%;
   opacity: .62;
-  animation-delay: -7s;
-  animation-duration: 19s;
 }
 
 .postcard-hill {
@@ -187,7 +173,6 @@
   width: 4px;
   background: repeating-linear-gradient(to bottom, #e5cf91 0 10px, transparent 10px 20px);
   content: "";
-  animation: road-marks 1.2s steps(4, end) infinite;
 }
 
 .postcard-marker {
@@ -199,7 +184,6 @@
   height: 22px;
   background: #a74639;
   box-shadow: 0 -7px #d6a84d, 4px 0 rgba(29, 40, 36, .18);
-  animation: marker-wait 2.4s steps(5, end) infinite;
 }
 
 .postcard-message {
@@ -293,27 +277,6 @@
   margin: 0;
 }
 
-@keyframes postcard-sun {
-  0%, 100% { transform: translateY(0); filter: brightness(1); }
-  50% { transform: translateY(-3px); filter: brightness(1.08); }
-}
-
-@keyframes postcard-cloud {
-  from { transform: translateX(0); }
-  to { transform: translateX(560px); }
-}
-
-@keyframes road-marks {
-  from { background-position-y: 0; }
-  to { background-position-y: 20px; }
-}
-
-@keyframes marker-wait {
-  0%, 100% { transform: translateY(0); }
-  45% { transform: translateY(-3px); }
-  60% { transform: translateY(-1px); }
-}
-
 @media (max-width: 720px) {
   .postcards-main {
     padding-top: 68px;
@@ -363,15 +326,5 @@
 
   .postcards-footer {
     min-height: 105px;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: .01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: .01ms !important;
   }
 }

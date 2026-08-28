@@ -6,16 +6,11 @@
   <meta name="theme-color" content="#f5f0e5">
   <meta name="description" content="Yunze Song works on reinforcement learning and trustworthy language models. Follow his research and journey through a small pixel world.">
   <title>Academic &middot; Yunze Song</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Newsreader:ital,opsz,wght@1,6..72,500&amp;display=swap" rel="stylesheet">
+  <link rel="canonical" href="https://yunzesong.com/academic.html">
   <link rel="icon" href="./assets/logo-matcha-basque.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./academic.css">
   <link rel="stylesheet" href="./site-shell.css">
-  <link rel="stylesheet" href="./name-flow.css">
-  <script defer src="./location.js"></script>
   <script defer src="./academic.js"></script>
-  <script defer src="./name-flow.js"></script>
 </head>
 <body class="academic-page">
   <a class="skip-link" href="#content">Skip to content</a>
@@ -24,7 +19,7 @@
 
   <header class="site-header">
     <div class="header-inner">
-      <a class="wordmark" href="./index.html" aria-label="Yunze Song, go to homepage">
+      <a class="wordmark" href="/" aria-label="Yunze Song, go to homepage">
         <img class="wordmark-mark" src="./assets/logo-matcha-basque.svg" alt="" width="32" height="32" aria-hidden="true">
         <span>Yunze Song</span>
       </a>
@@ -37,7 +32,7 @@
         </nav>
         <span class="nav-divider" aria-hidden="true"></span>
         <nav class="site-nav" aria-label="Site navigation">
-          <a href="./index.html">Home</a>
+          <a href="/">Home</a>
           <a class="is-current" href="./academic.html" aria-current="page">Academic</a>
           <a href="./postcards.html">Postcards</a>
         </nav>
@@ -45,10 +40,8 @@
     </div>
   </header>
 
-  <div class="academic-deck">
-    <div class="academic-stage">
   <main id="content">
-    <section class="hero page-width" id="top" aria-labelledby="hero-title" data-world-mood="beijing" data-scene-panel="top">
+    <section class="hero page-width" id="top" aria-labelledby="hero-title">
       <div class="hero-copy">
         <h1 id="hero-title">I study how learning systems reason, evaluate, and improve.</h1>
         <p class="hero-intro">
@@ -57,20 +50,19 @@
         <p class="hero-focus">My research focuses on reinforcement learning, trustworthy language models, and reliable evaluation for reasoning systems.</p>
       </div>
       <figure class="hero-portrait">
-        <img class="hero-portrait-base" src="./assets/selfie.svg" alt="Pixel art portrait of Yunze Song" width="1086" height="1448">
-        <img class="hero-portrait-smile" src="./assets/selfie-smile.svg" alt="" width="1086" height="1448" aria-hidden="true">
+        <img class="hero-portrait-base" src="./assets/selfie.webp" alt="Pixel art portrait of Yunze Song" width="543" height="724" decoding="async" fetchpriority="high">
       </figure>
     </section>
 
-    <section class="section page-width" id="publications" aria-labelledby="publications-title" data-world-mood="research" data-scene-panel="publications">
+    <section class="section page-width" id="publications" aria-labelledby="publications-title">
       <header class="section-heading">
         <div>
           <h2 id="publications-title">Publications</h2>
         </div>
       </header>
 
-      <div class="publication-pages" data-publication-pages>
-      <div class="publication-list publication-pair is-active" data-publication-page>
+      <div class="publication-pages">
+      <div class="publication-list publication-pair" role="region" aria-label="Publication cards">
         <a class="publication" href="https://arxiv.org/pdf/2509.21117.pdf" target="_blank" rel="noopener" aria-label="Read TrustJudge paper">
           <span class="publication-image publication-image-trustjudge" aria-hidden="true">
             <img src="./assets/publication-trustjudge.jpg" alt="TrustJudge comparison chart" width="1818" height="1218" loading="lazy" decoding="async">
@@ -116,7 +108,7 @@
       </div>
     </section>
 
-    <section class="section page-width" id="talks" aria-labelledby="talks-title" data-world-mood="signal" data-scene-panel="talks">
+    <section class="section page-width" id="talks" aria-labelledby="talks-title">
       <header class="section-heading section-heading-compact">
         <div>
           <h2 id="talks-title">Talks</h2>
@@ -140,7 +132,7 @@
       </a>
     </section>
 
-    <section class="journey-section" id="journey" aria-labelledby="journey-title" data-world-mood="journey" data-scene-panel="journey">
+    <section class="journey-section" id="journey" aria-labelledby="journey-title">
       <div class="page-width">
         <header class="section-heading journey-heading">
           <div>
@@ -148,21 +140,19 @@
           </div>
         </header>
 
-        <div class="journey-layout" data-journey-viewport>
+        <div class="journey-layout" role="region" aria-label="Career journey cards">
           <ol class="journey-list">
-            <li class="journey-item is-active" data-journey-scene="shenzhen" data-journey-caption="A new chapter with Hunyuan, Tencent, in Shenzhen.">
-              <div class="journey-mobile-frame scene-motion-surface" data-motion-scene="shenzhen">
+            <li class="journey-item">
+              <div class="journey-mobile-frame">
                 <img class="journey-mobile-scene" src="./assets/scene-shenzhen.webp" alt="Pixel art of Yunze looking across the Shenzhen skyline" width="1672" height="941" loading="lazy" decoding="async">
-                <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
               </div>
               <p class="journey-period">2025.12 &ndash; now</p>
               <h3>Research Intern, Hunyuan, Tencent</h3>
               <p>Shenzhen, China</p>
             </li>
-            <li class="journey-item" data-journey-scene="singapore" data-journey-caption="Graduate study at NUS and Temasek Laboratories.">
-              <div class="journey-mobile-frame scene-motion-surface" data-motion-scene="singapore">
+            <li class="journey-item">
+              <div class="journey-mobile-frame">
                 <img class="journey-mobile-scene" src="./assets/scene-singapore.webp" alt="Pixel art of Yunze near NUS in Singapore" width="1672" height="941" loading="lazy" decoding="async">
-                <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
               </div>
               <p class="journey-period">2025.01 &ndash; 2027.02</p>
               <h3>M.Sc. in Robotics</h3>
@@ -171,28 +161,25 @@
                 <span><a href="https://www.temasek-labs.nus.edu.sg/" target="_blank" rel="noopener">Temasek Laboratories @ NUS</a>, Singapore</span>
               </p>
             </li>
-            <li class="journey-item" data-journey-scene="beijing" data-journey-caption="A year of research at Peking University.">
-              <div class="journey-mobile-frame scene-motion-surface" data-motion-scene="beijing">
-                <img class="journey-mobile-scene" src="./assets/scene-beijing.webp" alt="Pixel art of Yunze in Beijing" width="1672" height="941" loading="lazy" decoding="async">
-                <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
+            <li class="journey-item">
+              <div class="journey-mobile-frame">
+                <img class="journey-mobile-scene" src="./assets/scene-beijing.webp" alt="Pixel art of Beijing with the Forbidden City corner tower and distant CBD skyline" width="1672" height="941" loading="lazy" decoding="async">
               </div>
               <p class="journey-period">2023.11 &ndash; 2024.11</p>
               <h3>Research Intern, Peking University</h3>
               <p>Beijing, China</p>
             </li>
-            <li class="journey-item" data-journey-scene="hangzhou" data-journey-caption="Research beside the hills and water of Hangzhou.">
-              <div class="journey-mobile-frame scene-motion-surface" data-motion-scene="hangzhou">
+            <li class="journey-item">
+              <div class="journey-mobile-frame">
                 <img class="journey-mobile-scene" src="./assets/scene-hangzhou.webp" alt="Pixel art of Yunze exploring Hangzhou" width="1672" height="941" loading="lazy" decoding="async">
-                <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
               </div>
               <p class="journey-period">2023.05 &ndash; 2023.09</p>
               <h3>Research Intern, Westlake University</h3>
               <p>Hangzhou, China</p>
             </li>
-            <li class="journey-item" data-journey-scene="suzhou" data-journey-caption="The undergraduate years began along Suzhou's canals.">
-              <div class="journey-mobile-frame scene-motion-surface" data-motion-scene="suzhou">
+            <li class="journey-item">
+              <div class="journey-mobile-frame">
                 <img class="journey-mobile-scene" src="./assets/scene-suzhou.webp" alt="Pixel art of Yunze exploring Suzhou" width="1672" height="941" loading="lazy" decoding="async">
-                <canvas class="scene-motion" data-scene-motion aria-hidden="true"></canvas>
               </div>
               <p class="journey-period">2019.09 &ndash; 2023.07</p>
               <h3>B.Sc. in Computer Science and Technology</h3>
@@ -203,15 +190,11 @@
             </li>
           </ol>
         </div>
-        <div class="journey-route" aria-hidden="true">
-          <span class="journey-route-fill"></span>
-          <i></i><i></i><i></i><i></i><i></i>
-        </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer page-width" id="contact" aria-labelledby="contact-title" data-world-mood="home" data-scene-panel="contact">
+  <footer class="site-footer page-width" id="contact" aria-labelledby="contact-title">
     <header class="section-heading section-heading-compact">
       <div>
         <h2 id="contact-title">Contact</h2>
@@ -265,8 +248,5 @@
       <p>&copy; <span id="year"></span> Yunze Song</p>
     </div>
   </footer>
-    </div>
-    <div class="academic-scroll-track" aria-hidden="true"></div>
-  </div>
 </body>
 </html>
