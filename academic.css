@@ -753,6 +753,10 @@ h1 {
   object-fit: cover;
 }
 
+.journey-mobile-frame .journey-mobile-scene--top {
+  object-position: center top;
+}
+
 .site-footer {
   padding-block: 56px 30px;
   border-top: 1px solid rgba(29, 40, 36, .15);

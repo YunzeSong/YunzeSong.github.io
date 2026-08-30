@@ -32,3 +32,6 @@ responsive-*.png
 
 # Generated visual review artifacts
 output/
+
+# Local source photos used as image-generation references
+reference/
